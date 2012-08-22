@@ -20,27 +20,27 @@ BIBTEX = bibtex
 LATEXFLAGS = -interaction=nonstopmode
 
 
-## texdepend, v0.96 (Michael Friendly (friendly@yorku.ca))
-## commandline: texdepend ellipses.tex
-##INCLUDES = introduction.tex geometric.tex statistical.tex dataellipse.tex linreg.tex simpson-iris.tex paradoxes.tex levdemo.tex betaspace.tex measerror.tex avplot.tex MLM.tex criteria.tex kiss.tex discrim.tex ridge.tex ridge2.tex bayesian.tex mixed.tex hsbmix.tex mvmeta.tex conclusions.tex properties.tex conjugate.tex geneig.tex
-#INCLUDES = introduction.tex geometric.tex statistical.tex dataellipse.tex linreg.tex simpson-iris.tex paradoxes.tex levdemo.tex betaspace.tex measerror.tex avplot.tex MLM.tex criteria.tex kiss.tex discrim.tex ridge.tex ridge2.tex bayesian.tex mixed.tex hsbmix.tex mvmeta.tex conclusions.tex taxonomy2.tex properties.tex conjugate.tex geneig.tex
 ##
-#PACKAGES = article.cls times.sty natbib.sty url.sty bm.sty graphicx.sty epigraph.sty comment.sty mdwlist.sty amsmath.sty amssymb.sty latexsym.sty color.sty afterpage.sty fancyhdr.sty
-##
-#FIGS = fig/galton-corr.* fig/galton-reg3.* fig/scatirisd1.* fig/scatirisd3.* fig/ellipses-demo.* fig/vis-reg-prestige1.* fig/vis-reg-prestige2.* fig/contiris3.* fig/between-within1.* fig/between-within2.* fig/between-HE1.* fig/between-HE2.* fig/levdemo21.* fig/levdemo22.* fig/vis-reg-coffee11.* fig/vis-reg-coffee12a.* fig/vis-reg-coffee12b.* fig/vis-reg-coffee13.* fig/coffee-stress1.* fig/coffee-stress2.* fig/coffee-measerr.* fig/coffee-avplot1.* fig/coffee-avplot2.* fig/coffee-av3D-1.* fig/coffee-av3D-2.* fig/coffee-avplot3.* fig/coffee-avplot4.* fig/mtests.* fig/heplot3a.* fig/HE-contrasts-iris.* fig/HE-can-iris.* fig/kiss-demo.* fig/kiss-demo2a.* fig/kiss-demo2b.* fig/ridge-demo.* fig/ridge2ab.* fig/hsbmix41.* fig/hsbmix42.* fig/hsbmix43.* fig/mvmeta2a.* fig/mvmeta2b.* fig/inverse.* fig/conjugate1.* fig/conjugate2.* fig/ellipse-geneig1.* fig/ellipse-geneig2.*
-##
-#BIB_FILES = ellipses.bib
-##
-#STYLES = /usr/share/texmf-texlive/tex/latex/psnfss/times.sty /usr/share/texmf-texlive/tex/latex/natbib/natbib.sty /usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty /usr/share/texmf-texlive/tex/latex/tools/bm.sty /usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty /usr/share/texmf-texlive/tex/latex/graphics/keyval.sty /usr/share/texmf-texlive/tex/latex/graphics/graphics.sty /usr/share/texmf-texlive/tex/latex/graphics/trig.sty /home/friendly/texmf/tex/latex/misc/epigraph.sty /usr/share/texmf-texlive/tex/latex/comment/comment.sty /usr/share/texmf-texlive/tex/latex/mdwtools/mdwlist.sty /usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty /usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty /usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty /usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty /usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty /usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty /usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty /usr/share/texmf-texlive/tex/latex/base/latexsym.sty /usr/share/texmf-texlive/tex/latex/graphics/color.sty /usr/share/texmf-texlive/tex/latex/tools/afterpage.sty /usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+# texdepend, v0.96 (Michael Friendly (friendly@yorku.ca))
+# commandline: texdepend FriendlySigal2012
+INCLUDES = intro.tex project.tex
 #
-#ALTFIGS =
-##
+PACKAGES = article.cls geometry.sty natbib.sty color.sty mdwlist.sty graphicx.sty url.sty epigraph.sty comment.sty
+#
+FIGS = fig/langren-google-overlay.jpg fig/mileyears4.png fig/datavis-timeline2.png fig/datavis-db-schema-reduced.pdf fig/lifespan.pdf fig/authormap.png
+#
+BIB_FILES = ./references.bib
+#
+STYLES = /usr/share/texmf-texlive/tex/latex/geometry/geometry.sty /usr/share/texmf-texlive/tex/latex/graphics/keyval.sty /usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty /usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty /usr/share/texmf-texlive/tex/latex/natbib/natbib.sty /usr/share/texmf-texlive/tex/latex/graphics/color.sty /usr/share/texmf-texlive/tex/latex/mdwtools/mdwlist.sty /usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty /usr/share/texmf-texlive/tex/latex/graphics/graphics.sty /usr/share/texmf-texlive/tex/latex/graphics/trig.sty /usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty /home/friendly/texmf/tex/latex/misc/epigraph.sty /usr/share/texmf-texlive/tex/latex/comment/comment.sty
+#
 
 
-SHIPSTYLES = styles/*
+#SHIPSTYLES = styles/*
 
-EXTRAS = $(MAIN:%=%.aux) $(MAIN:%=%.bbl)  \
- $(SHIPSTYLES) Makefile FIGLIST
+EXTRAS = $(MAIN:%=%.aux) $(MAIN:%=%.bbl)  
+# $(SHIPSTYLES) 
+# Makefile 
+# FIGLIST
 
 ALLFILES = $(MAIN).tex $(MAIN).pdf  $(INCLUDES) $(BIB_FILES) $(FIGS) $(ALTFIGS) $(EXTRAS)
 
