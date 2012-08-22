@@ -1,0 +1,153 @@
+\section{Introduction}\label{sec:intro}
+\epigraph{If you would understand anything, observe its beginning and its development}{Aristotle}
+
+Questions regarding the history of data visualization are (or at least should be) of great importance to historians of science,
+to current developers of graphical methods for statistical analysis and the related info-vis community, as well
+those just interested in the history of ideas.
+In the history of science, diagrams, graphs, maps and other visualizations have often played important roles in discoveries
+that arguably might not have been achieved otherwise.%
+\footnote{
+	Some salient examples are:
+	Francis Galton's 1861
+	discovery of anti-cyclonic movement of wind around low-pressure areas from contour maps;
+	Edward Maunder's ``butterfly diagram'' of the variation of sunspots over time leading to the
+	discovery of the ``Maunder minimum,'' from 1645--1715;
+	and Henry Moselely's 1913 discovery of the concept of atomic number,
+	based largely on graphical analysis (a plot of serial numbers of the elements vs.
+	square root of frequencies from their X-ray spectra).
+}
+At the same time,
+in the fields of statistical graphics and information visualization,
+developers often create ``new'' methods without any appreciation that they have deep roots in the past.
+
+
+These two perspectives provided the motivation for the development of the Milestones Project.
+This stemmed from the fact that historical accounts of events, ideas and techniques that
+relate \emph{inter alia} to modern data visualization were fragmented and
+scattered across a wide number of fields.%
+\footnote{
+Among these are general histories
+in the fields of probability \citep{Hald:1990}, statistics
+\citep{Pearson:1978,Porter:1986,Stigler:1986}, astronomy \citep{Riddell:1980}, cartography \citep{WallisRobinson:87}.
+More specialized accounts focus on the early history of graphic recording
+\citep{HoffGeddes:1959,HoffGeddes:1962}, statistical graphs
+\citep{Funkhouser:1936,Funkhouser:1937,Royston:1970,Tilling:1975}, fitting equations to empirical data
+\citep{Farebrother:1999}, cartography \citep{Friis:1974,Kruskal:1977} and thematic mapping
+\citep{FriendlyPalsky:2007,Palsky:1996,Robinson:1982}, and so forth.
+}
+When this work began in the mid 1990s, there were no accounts or resources that spanned the entire development
+of visual thinking and the visual representation of data across different disciplines and perspectives.
+The Milestones Project began simply as an attempt to collate these diverse contributions into a single,
+comprehensive listing, organized chronologically, and containing representative images, references to
+original sources and links to further discussion--- a source for ``One-Stop Shopping'' on the history of
+data visualization.
+
+In \secref{sec:project}, we describe the evolution of the Milestones Project. \secref{sec:vistime}
+presents some historical and modern approaches to one self-referential question: how can data
+visualization be applied to its own history? \secref{sec:historiography} introduces another self-referential
+topic we
+call \emph{statistical historiography},
+which entails the use of statistical and graphical methods for the analysis and understanding of historical innovations, developments, and trends.
+But first we give some brief vignettes of historical topics and questions for which the Milestones Project has
+proved invaluable in our own research.
+
+\begin{comment}
+\begin{itemize*}
+ \item The first statistical graph?
+ \item Who invented the scatterplot?
+ \item The origin of mosaic displays
+ \item The Golden Age of statistical graphics
+\end{itemize*}
+\end{comment}
+
+\subsection{The first statistical graph}
+In the history of statistical graphics \citep{Friendly:06:hbook},
+as in other artful sciences, there are a number of inventions and developments
+that can be considered ``firsts'' in these fields.
+The catalog of the Milestones Project
+\citep{FriendlyDenis:01} lists 70 events that can be considered to be the
+initial use or statement of an idea, method or technique that is now
+commonplace, but there is probably no question more fundamental than
+that of the first visual representation of statistical data.
+
+\begin{figure}[htb]
+ \centering
+ \includegraphics[width=\textwidth]{fig/langren-google-overlay}
+ \caption{van Langren's 1644 graph, re-scaled and overlaid on a modern map of Europe.
+ Toledo is located at
+lat/long
+%39$^o$51$^'$36$^\"$N, 4$^o$01$^'$48$^\"$W
+(\degree{+39.86}N, \degree{-4.03}W), Rome is located at (\degree{+41.89}N, \degree{+12.5}W),
+both shown by markers on the map.  This image makes clear what van Langren wished to communicate:
+the wide variability of the estimates, but also shows how far the estimates were biased.}%
+  \label{fig:langren-google-overlay}
+\end{figure}
+
+In \citet{Friendly-etal:2010:langren}
+we argue that the 1-dimensional line graph shown in \figref{fig:langren-google-overlay}
+by Michael Florent
+van Langen \citep{Langren:1644} should be accorded this honor.
+The graph shows 12 estimates of the distance in longitude between Toledo and Rome, overlaid on a modern map.
+van Langren used this to demonstrate that these estimates were all subject to large errors and to
+propose to King Phillip of Spain that only he had a sufficiently precise method for the determination
+of longitude for navigation at sea.
+
+The telling of van Langren's story turned out to involve astronomy, archival research,
+patronage in the \Cent{17} and even an unsolved problem of cryptography,
+but also serves as one example of statistical historiography.  For the present purposes
+we note simply that the Milestones Project provided the infrastructure for this research---
+a time-based, cross-referenced catalog of images, references and links to related work.
+
+\subsection{Who invented the scatterplot?}
+Although there are earlier precursors, the main graphical methods used today---
+pie charts, line graphs and bar charts--- are generally attributed to
+William Playfair in works around the beginning of the \Cent{19}
+\citep{Playfair:1786,Playfair:1801}. All of these are essentially univariate
+displays of some aspect of a single variable. The next major invention,
+and the first true bivariate display is \scat\, whose use by
+\citet{Galton:1886} led to the discovery of
+correlation and regression, and ultimately to much of present multivariate
+statistics. So, it is perhaps surprising that there is no one widely
+credited with the invention of this idea.
+
+In \citet{FriendlyDenis:05:scat} we trace the early origins of ideas related to
+the scatterplot, why, in Playfair's time, it was nearly impossible to think about
+and visualize bivariate relations, and how Galton's visual insight from
+a scatterplot contributed to the rise of modern statistics and graphics.
+But, the resources available in the Milestones Project allowed us to attribute
+the essential ideas of the scatterplot to J. F. W. Herschel in two 1832 papers.
+
+\subsection{The Golden Age of statistical graphics}
+
+In our initial web presentation of the Milestones Project, it proved convenient
+to sub-divide this history of data visualization into epochs, each of which turned
+out to be describable by coherent themes.  For reasons we describe later, one
+period turned out to be particularly noteworthy, both for the sheer number of
+contributions and for the beauty and elegance of their execution.
+We call this period, from roughly 1850 to 1900 ($\pm 10$) the Golden Age of
+Statistical graphics \citep{Friendly:2008:golden}.
+
+\figref{fig:mileyears4} shows the time distribution of 260 miletone events
+listed in the Milestones Project in 2007 together with the labels we used for
+epochs.
+In \citet{Friendly:2008:golden} we trace the origin of this period in terms
+of the infrastructure required to produce this explosive growth of contributions
+to data visualization: systematic data collection by state agencies,
+the rise of statistical and visual thinking, and enabling  developments of
+technology.
+%% one figure
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=.9\textwidth,clip]{fig/mileyears4}
+  \caption{The time distribution of events considered milestones in the history of
+  data visualization, shown by a rug plot and
+  density estimate.
+  The density estimate is based on $n=260$ significant events in the history of data
+  of data visualization from 1500--present.
+  The developments in the highlighted period, from roughly 1840--1910 comprise the
+  Golden Age of statistical graphics.
+  }
+  \label{fig:mileyears4}
+\end{figure}
+
+

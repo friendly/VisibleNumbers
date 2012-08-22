@@ -1,0 +1,32 @@
+# exclude file extensions
+*.webprj
+*.session
+*.bak
+*~
+*.tmp
+*.lst
+*.log
+*.backup
+*.blg
+*.brf
+*.out
+*.eml
+*0.sas
+# special files
+tags
+Distfile
+.texlipse
+.project
+.directory
+# exclude directories
+Test/
+Old/
+.svn/
+.notes/
+notes/
+#fig/*.pdf
+fig/*.png
+fig/fig*.*
+SAS/*.ps
+SAS/*.eps
+ellipses-preprint.*

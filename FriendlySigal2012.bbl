@@ -1,13 +1,47 @@
-\providecommand{\Loc}[1]{\textsf{#1}}\providecommand{\SortNoop}[1]{}\providecommand{\Loc}[1]{\textsf{#1}}
-  \providecommand{\de}[1]{d'#1}
-\begin{thebibliography}{27}
+\providecommand{\Loc}[1]{\textsf{#1}}
+\providecommand{\SortNoop}[1]{}
+\providecommand{\Loc}[1]{\textsf{#1}} \providecommand{\de}[1]{d'#1}
+
+\begin{thebibliography}{43}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Balbi and Guerry(1829)}]{BalbiGuerry:1829}
+Balbi, A. and Guerry, A.-M. (1829).
+\newblock Statistique compar{\'e}e de l'{\'e}tat de l'instruction et du nombre
+  des crimes dans les divers arrondissements des acad{\'e}mies et des cours
+  royales de {France}.
+\newblock Jules Renouard, Paris.
+\newblock \Loc{BL:Tab.597.b.(38); BNF: Ge C 9014 }.
+
+\bibitem[{Beniger and Robyn(1978)}]{BenigerRobyn:1978}
+Beniger, J.~R. and Robyn, D.~L. (1978).
+\newblock Quantitative graphics in statistics: A brief history.
+\newblock \emph{The American Statistician}, 32, 1--11.
 
 \bibitem[{Farebrother(1999)}]{Farebrother:1999}
 Farebrother, R.~W. (1999).
 \newblock \emph{Fitting Linear Relationships: A History of the Calculus of
   Observations 1750--1900}.
 \newblock New York: Springer.
+
+\bibitem[{Friendly(2002)}]{Friendly:02:Minard}
+Friendly, M. (2002).
+\newblock Visions and {Re-Visions} of {Charles Joseph Minard}.
+\newblock \emph{Journal of Educational and Behavioral Statistics}, 27(1),
+  31--51.
+
+\bibitem[{Friendly(2005)}]{Friendly:04:gfkl}
+Friendly, M. (2005).
+\newblock Milestones in the history of data visualization: A case study in
+  statistical historiography.
+\newblock In C.~Weihs and W.~Gaul, eds., \emph{Classification: The Ubiquitous
+  Challenge}, (pp. 34--52). New York: Springer.
+
+\bibitem[{Friendly(2007)}]{Friendly:2007:guerry}
+Friendly, M. (2007).
+\newblock {A.-M. Guerry's Moral Statistics of France}: Challenges for
+  multivariable spatial analysis.
+\newblock \emph{Statistical Science}, 22(3), 368--399.
 
 \bibitem[{Friendly(2008{\natexlab{a}})}]{Friendly:06:hbook}
 Friendly, M. (2008{\natexlab{a}}).
@@ -21,18 +55,30 @@ Friendly, M. (2008{\natexlab{b}}).
 \newblock The {Golden Age} of statistical graphics.
 \newblock \emph{Statistical Science}, 23(4), 502--535.
 
+\bibitem[{Friendly(2011)}]{HistData}
+Friendly, M. (2011).
+\newblock \emph{HistData: Data sets from the history of statistics and data
+  visualization}.
+\newblock R package version 0.6-12.
+
+\bibitem[{Friendly and Denis(2001)}]{FriendlyDenis:01}
+Friendly, M. and Denis, D. (2001).
+\newblock Milestones in the history of thematic cartography, statistical
+  graphics, and data visualization.
+\newblock Web document.
+\newblock \url{http://www.math.yorku.ca/SCS/Gallery/milestone/}.
+
 \bibitem[{Friendly and Denis(2005)}]{FriendlyDenis:05:scat}
 Friendly, M. and Denis, D. (2005).
 \newblock The early origins and development of the scatterplot.
 \newblock \emph{Journal of the History of the Behavioral Sciences}, 41(2),
   103--130.
 
-\bibitem[{Friendly and Denis(2001)}]{FriendlyDenis:01}
-Friendly, M. and Denis, D.~J. (2001).
-\newblock Milestones in the history of thematic cartography, statistical
-  graphics, and data visualization.
-\newblock Web document.
-\newblock \url{http://www.math.yorku.ca/SCS/Gallery/milestone/}.
+\bibitem[{Friendly and Dray(2010)}]{Guerry}
+Friendly, M. and Dray, S. (2010).
+\newblock \emph{Guerry: Guerry: maps, data and methods related to Guerry (1833)
+  "Moral Statistics of France"}.
+\newblock R package version 1.4.
 
 \bibitem[{Friendly and Palsky(2007)}]{FriendlyPalsky:2007}
 Friendly, M. and Palsky, G. (2007).
@@ -71,11 +117,39 @@ Galton, F. (1886).
 \newblock Regression towards mediocrity in hereditary stature.
 \newblock \emph{Journal of the Anthropological Institute}, 15, 246--263.
 
+\bibitem[{Gesmann and de~Castillo(2011)}]{googleVis}
+Gesmann, M. and de~Castillo, D. (2011).
+\newblock \emph{googleVis: Interface between R and the Google Visualisation
+  {API}}.
+\newblock R package version 0.2.12.
+
+\bibitem[{Guerry(1864)}]{Guerry:1864}
+Guerry, A.-M. (1864).
+\newblock \emph{Statistique morale de l'Angleterre compar{\'e}e avec la
+  statistique morale de la France, d'apr{\`e}s les comptes de l'administration
+  de la justice criminelle en Angleterre et en France, etc.}
+\newblock Paris: J.-B. Bailli{\`e}re et fils.
+\newblock \Loc{BNF: GR FOL-N-319; SG D/4330; BL: Maps 32.e.34; SBB: Fe 8586;
+  LC: 11005911}.
+
 \bibitem[{Hald(1990)}]{Hald:1990}
 Hald, A. (1990).
 \newblock \emph{A History of Probability and Statistics and their Application
   before 1750}.
 \newblock New York: John Wiley and Sons.
+
+\bibitem[{Hankins(1999)}]{Hankins:1999}
+Hankins, T.~L. (1999).
+\newblock Blood, dirt, and nomograms: A particular history of graphs.
+\newblock \emph{Isis}, 90, 50--80.
+
+\bibitem[{Heiser(2000)}]{Heiser:2000}
+Heiser, W.~J. (2000).
+\newblock Early roots of statistical modelling.
+\newblock In J.~Blasius, J.~Hox, E.~de~Leeuw, and P.~Schmidt, eds.,
+  \emph{Social Science Methodology in the New Millenium: Proceedings of the
+  Fifth International Conference on Logic and Methodology}. Amsterdam:
+  TT-Publikaties.
 
 \bibitem[{Hoff and Geddes(1959)}]{HoffGeddes:1959}
 Hoff, H.~E. and Geddes, L.~A. (1959).
@@ -153,16 +227,42 @@ Royston, E. (1970).
   History Of Statistics and Probability Theory}, eds. E. S. Pearson and M. G.
   Kendall, London: Griffin.
 
+\bibitem[{Rubin(1943)}]{Rubin:1943}
+Rubin, E. (1943).
+\newblock The place of statistical methods in modern historiography.
+\newblock \emph{American Journal of Economics and Sociology}, 2(2), 193--210.
+
 \bibitem[{Stigler(1986)}]{Stigler:1986}
 Stigler, S.~M. (1986).
 \newblock \emph{The History of Statistics: The Measurement of Uncertainty
   before 1900}.
 \newblock Cambridge, MA: Harvard University Press.
 
+\bibitem[{Stigler(1999)}]{Stigler:1999}
+Stigler, S.~M. (1999).
+\newblock \emph{Statistics on the Table: The History of Statistical Concepts
+  and Methods}.
+\newblock Cambridge, MA: Harvard University Press.
+
 \bibitem[{Tilling(1975)}]{Tilling:1975}
 Tilling, L. (1975).
 \newblock Early experimental graphs.
 \newblock \emph{British Journal for the History of Science}, 8, 193--213.
+
+\bibitem[{Tufte(1983)}]{Tufte:1983}
+Tufte, E.~R. (1983).
+\newblock \emph{The Visual Display of Quantitative Information}.
+\newblock Cheshire, CT: Graphics Press.
+
+\bibitem[{Tufte(1990)}]{Tufte:1990}
+Tufte, E.~R. (1990).
+\newblock \emph{Envisioning Information}.
+\newblock Cheshire, CT: Graphics Press.
+
+\bibitem[{Tufte(1997)}]{Tufte:1997}
+Tufte, E.~R. (1997).
+\newblock \emph{Visual Explanations}.
+\newblock Cheshire, CT: Graphics Press.
 
 \bibitem[{van Langren(1644)}]{Langren:1644}
 van Langren, M.~F. (1644).
