@@ -35,6 +35,7 @@
 
 %\bibliographystyle{abbrvnat-last}
 \bibliographystyle{abbrvnat-apa-nourl}
+\providecommand{\Loc}[1]{\textsf{#1}}
 
 \begin{document}
 
@@ -69,6 +70,29 @@ Finally, the Milestones database itself will be used to showcase how such a reso
   \item Non-linear scales
   \item Dynamic/interactive timelines
 \end{itemize*}
+
+\epigraph{What does history look like?  How do you draw time?}{\citet[p. 10]{RosenbergGrafton:2010}}
+The questions in this quotation from \emph{Cartographies of Time: A History of the Timeline} \citet{RosenbergGrafton:2010}
+introduce an important topic in the history of data visualization: how to visualize this history?
+Time provides one obvious dimension, but what else can be included to show the details of a history in a static display
+or allow users to see more using dynamic and interactive displays?
+
+We have also provided an annotated visual gallery of some timeline designs and visual histories
+in our Data Visualization Gallery at \url{datavis.ca/gallery/timelines.php}. ...
+
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth,clip]{fig/milecatline}
+  \caption{Sketch for a thematic timeline of milestones items, categorized by the Subject (content) 
+  and Aspect (form) of the milestone item.  To provide greater resolution for more recent events,
+  time (Year) is shown on a square-root scale, going backward from the year 2000.
+  }
+  \label{fig:milecatline}
+\end{figure}
+
+
+
 
 \section{Using the Milestones Project for Statistical Historiography}\label{sec:historiography}
 \begin{itemize*}
@@ -225,6 +249,7 @@ overview page to the milestones site.
 \section{Conclusion}
 -Summarize and conclude
 
-%\bibliography{graphics,timeref,Rpackages}
-\bibliography{references}        % after being processed by aux2bib or bibtool
+\bibliography{graphics,timeref,Rpackages}
+%\bibliography{references}        % after being processed by aux2bib 
+%\bibliography{FriendlySigal2012}        % after being processed bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc -x FriendlySigal2012.aux -o FriendlySigal2012.bib
 \end{document} 

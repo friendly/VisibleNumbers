@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  22 AUG 2012 15:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  24 AUG 2012 15:35
 entering extended mode
  %&-line parsing enabled.
-**FriendlySigal2012
+**FriendlySigal2012.tex
 (./FriendlySigal2012.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -105,18 +105,18 @@ Package: epigraph 2000/01/16 v1.4 typesetting epigraphs
 Excluding comment 'comment') (./FriendlySigal2012.aux)
 \openout1 = `FriendlySigal2012.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -173,11 +173,11 @@ driver: pdftex
 \everyMPtoPDFconversion=\toks17
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 45.
+(Font)              <12> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 45.
+(Font)              <8> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <6> on input line 46.
  (./intro.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -203,38 +203,41 @@ File: fig/datavis-timeline2.png Graphic file (type png)
 
 <use fig/datavis-timeline2.png>
 
-pdfTeX warning: pdflatex (file ./fig/datavis-db-schema-reduced.pdf): PDF inclus
-ion: found PDF version <1.5>, but at most version <1.4> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/datavis-db-schema-reduced.pdf): P
+DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/datavis-db-schema-reduced.pdf, id=27, 794.97pt x 614.295pt>
 File: fig/datavis-db-schema-reduced.pdf Graphic file (type pdf)
 
 <use fig/datavis-db-schema-reduced.pdf> [3])
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
  [4 <./fig/mileyears4.png>]
-[5 <./fig/datavis-timeline2.png (PNG copy)>]
-<fig/lifespan.pdf, id=44, 722.7pt x 289.08pt>
+<fig/milecatline.pdf, id=39, 568.1225pt x 285.065pt>
+File: fig/milecatline.pdf Graphic file (type pdf)
+ <use fig/milecatline.pdf>
+[5 <./fig/datavis-timeline2.png (PNG copy)>] [6 <./fig/datavis-db-schema-reduce
+d.pdf>] <fig/lifespan.pdf, id=108, 722.7pt x 289.08pt>
 File: fig/lifespan.pdf Graphic file (type pdf)
- <use fig/lifespan.pdf> [6 <./fig/datavis-db-schema-reduced.pdf>] [7 <./fig/lif
-espan.pdf>]
-<fig/authormap.png, id=119, 751.30687pt x 377.91188pt>
+ <use fig/lifespan.pdf>
+[7 <./fig/milecatline.pdf>] [8 <./fig/lifespan.pdf>]
+<fig/authormap.png, id=127, 751.30687pt x 377.91188pt>
 File: fig/authormap.png Graphic file (type png)
  <use fig/authormap.png>
-(./FriendlySigal2012.bbl [8 <./fig/authormap.png (PNG copy)>] [9] [10])
-[11] (./FriendlySigal2012.aux) ) 
+(./FriendlySigal2012.bbl [9 <./fig/authormap.png (PNG copy)>] [10] [11])
+[12] (./FriendlySigal2012.aux) ) 
 Here is how much of TeX's memory you used:
- 2112 strings out of 495061
- 29052 string characters out of 1182567
- 86038 words of memory out of 3000000
- 5270 multiletter control sequences out of 15000+50000
+ 2121 strings out of 495061
+ 29266 string characters out of 1182567
+ 86094 words of memory out of 3000000
+ 5278 multiletter control sequences out of 15000+50000
  11195 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,598b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,8n,32p,602b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -250,9 +253,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
 c/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on FriendlySigal2012.pdf (11 pages, 1262534 bytes).
+Output written on FriendlySigal2012.pdf (12 pages, 1328681 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 193 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

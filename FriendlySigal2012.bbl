@@ -1,8 +1,6 @@
-\providecommand{\Loc}[1]{\textsf{#1}}
-\providecommand{\SortNoop}[1]{}
-\providecommand{\Loc}[1]{\textsf{#1}} \providecommand{\de}[1]{d'#1}
-
-\begin{thebibliography}{43}
+ \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\SortNoop}[1]{}
+  \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\de}[1]{d'#1}
+\begin{thebibliography}{44}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Balbi and Guerry(1829)}]{BalbiGuerry:1829}
@@ -217,6 +215,11 @@ Riddell, R.~C. (1980).
 Robinson, A.~H. (1982).
 \newblock \emph{Early Thematic Mapping in the History of Cartography}.
 \newblock Chicago: University of Chicago Press.
+
+\bibitem[{Rosenberg and Grafton(2010)}]{RosenbergGrafton:2010}
+Rosenberg, D. and Grafton, A. (2010).
+\newblock \emph{Cartographies of Time: A History of the Timeline}.
+\newblock New York: Princeton Architectural Press.
 
 \bibitem[{Royston(1970)}]{Royston:1970}
 Royston, E. (1970).

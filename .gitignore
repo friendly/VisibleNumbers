@@ -24,9 +24,3 @@ Old/
 .svn/
 .notes/
 notes/
-#fig/*.pdf
-fig/*.png
-fig/fig*.*
-SAS/*.ps
-SAS/*.eps
-ellipses-preprint.*

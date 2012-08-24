@@ -5,44 +5,44 @@ Database file #1: graphics.bib
 Database file #2: timeref.bib
 Database file #3: Rpackages.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 43 entries,
+You've used 44 entries,
             3054 wiz_defined-function locations,
-            1004 strings with 14032 characters,
-and the built_in function-call counts, 20842 in all, are:
-= -- 1728
-> -- 590
-< -- 48
-+ -- 244
-- -- 176
-* -- 1334
-:= -- 3366
-add.period$ -- 144
-call.type$ -- 43
-change.case$ -- 275
-chr.to.int$ -- 42
-cite$ -- 43
-duplicate$ -- 1601
-empty$ -- 1703
-format.name$ -- 265
-if$ -- 4104
+            1009 strings with 14154 characters,
+and the built_in function-call counts, 21315 in all, are:
+= -- 1764
+> -- 610
+< -- 49
++ -- 251
+- -- 182
+* -- 1369
+:= -- 3443
+add.period$ -- 147
+call.type$ -- 44
+change.case$ -- 281
+chr.to.int$ -- 43
+cite$ -- 44
+duplicate$ -- 1635
+empty$ -- 1740
+format.name$ -- 276
+if$ -- 4197
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 350
-newline$ -- 231
-num.names$ -- 181
-pop$ -- 584
+missing$ -- 358
+newline$ -- 236
+num.names$ -- 185
+pop$ -- 601
 preamble$ -- 2
-purify$ -- 270
+purify$ -- 277
 quote$ -- 0
-skip$ -- 560
+skip$ -- 573
 stack$ -- 0
-substring$ -- 1059
-swap$ -- 803
+substring$ -- 1071
+swap$ -- 820
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 339
+type$ -- 345
 warning$ -- 0
-while$ -- 179
+while$ -- 182
 width$ -- 0
-write$ -- 569
+write$ -- 581

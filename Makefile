@@ -12,7 +12,7 @@ ZIP = /usr/bin/zip
 BIBTOOL = bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc
 
 #  latex or  pdflatex?
-LATEX = latex
+LATEX = pdflatex
 # name of BibTeX command
 BIBTEX = bibtex
 
@@ -37,9 +37,8 @@ STYLES = /usr/share/texmf-texlive/tex/latex/geometry/geometry.sty /usr/share/tex
 
 #SHIPSTYLES = styles/*
 
-EXTRAS = $(MAIN:%=%.aux) $(MAIN:%=%.bbl)  
+EXTRAS = $(MAIN:%=%.aux) $(MAIN:%=%.bbl)  Makefile
 # $(SHIPSTYLES) 
-# Makefile 
 # FIGLIST
 
 ALLFILES = $(MAIN).tex $(MAIN).pdf  $(INCLUDES) $(BIB_FILES) $(FIGS) $(ALTFIGS) $(EXTRAS)
@@ -49,7 +48,9 @@ ALLFILES = $(MAIN).tex $(MAIN).pdf  $(INCLUDES) $(BIB_FILES) $(FIGS) $(ALTFIGS) 
 paper:	$(MAIN).tex $(INCLUDES)
 	$(LATEX) $(LATEXFLAGS) $(MAIN).tex
 	-@egrep -c 'Citation .* undefined.' $(MAIN).log && ($(BIBTEX) $(MAIN);$(LATEX) $(MAIN))
+ifeq ($(LATEX),latex)
 	dvipdf $(MAIN)
+endif
 
 ${ZIPFILE}: ${ALLFILES}
 
