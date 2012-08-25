@@ -118,7 +118,7 @@ in regions of greater interest, most often the recent past.
   \centering
   \includegraphics[width=\textwidth,clip]{fig/milecatline}
   \caption{Sketch for a thematic timeline of milestones items, 1500--present,
-  categorized by the Subject (content)
+  categorized by both the Subject (content)
   and Aspect (form) of the milestone item.  To provide greater resolution for more recent events,
   time (Year) is shown on a square-root scale, going backward from the year 2000.
   }
@@ -128,13 +128,17 @@ in regions of greater interest, most often the recent past.
 \figref{fig:milecatline} is really just a proof-of-concept sketch for something that a graphic artist
 could use as a starting point for a chart of
 the history of data visualization. It uses the events from the
-Milestones Project, categorized by two correlated factors. Subject area or content has been
+Milestones Project, categorized by two correlated factors: 
+Subject area or content has been
 categorized as dealing with human populations, physical properties of the world or
 mathematics and statistics; aspect or form has been categorized as dealing with
 cartography, graphs and diagrams or technology. 
 
 To provide greater resolution for more recent events, we have used a reverse square-root
-scale going backward from the year 2000. ...
+scale going backward from the year 2000. Specifically, Year on the horizontal time axis
+is actually plotted according to the formula $\textrm{Year}^\star = 2* (25 - \sqrt{(2000 - \textrm{Year})})$,
+giving the more pleasing result that the modern period 1800--2000 occupies about 60\% of the scale,
+although it comprises only 40\% of the range.
 
 \section{Using the Milestones Project for Statistical Historiography}\label{sec:historiography}
 \begin{itemize*}
