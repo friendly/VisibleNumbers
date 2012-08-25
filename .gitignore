@@ -3,6 +3,7 @@
 *.session
 *.bak
 *~
+*.sav
 *.tmp
 *.lst
 *.log
