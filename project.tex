@@ -40,21 +40,46 @@ itemdb -o milestones.csv < milestones.tex | sas -i milestones.csv mileyears.sas
   \label{fig:datavis-timeline2}
 \end{figure}
 
-It soon became apparent that such a text-based representation was inadequate.  Around 2005, we began
-to convert this to a true database and
-completely redesigned the Milestones web site. ...
+It soon became apparent that such a text-based representation was inadequate. Updating the milestones data 
+required that the single \LaTeX\ file be shared between multiple collaborators over email, and milestones 
+assets, such as images or URLs were stored on a single computer not easily accessible by other collaborators.
+As a result, collaboration with more than a few collaborators was cumbersome. The single file needed to be vetted 
+at each iteration, and once enough data had been collected, rendered into a web site and manually uploaded so
+that non-collaborators, namely the public, would be able to view the data.
+
+Around 2005, we began to convert the flat file into a relational data and completely redesign the Milestones 
+web site. Specifically, we wanted to facilitate collaboration between any number of collaborators via an easy
+to use web administration area and allow for the dissemination of milestones data via an easy to browse public 
+user interface, both of which would be tied to a relational database.
+
+Migrating the data to this form provided some challenges. First, the existing milestones data needed to be
+normalized and redundancy minimized. To do this, we broke the data into its relavent entities namely the 
+milestone itself and its descriptors (aspect, author, subject, keywords, reference, and mediaitem).
+The aspect, author, subject, keyword and reference descriptors exist as a many-to-many relationship between 
+it and the milestone. For example an aspect can belong to one or more milestones and the mileston can belong to 
+one or more aspects. While media items on the other hand, can belong to only one milestone at a time, with
+multiple mediaitems possible for a single milestone. \figref{fig:datavis-schems-2} describes these relationships.
+
+Normalizing the data in this way enabled us to free the databse of modification anomalies; ensured that database 
+structure was scalable and could be extended with minimum mofications; made the relational model more informative 
+to users; and made sure the data itself was query-neutral (Codd, 1971).
+
+The second challenge related to how to display such a vast amount of information in an easy to understand
+user interface...
+
+
 
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth,clip]{fig/datavis-db-schema-reduced}
+  \includegraphics[width=\textwidth,clip]{fig/datavis-schema-2}
   \caption{Simplified schema for the MySQL database for the Milestones Project. The main 
   table (\texttt{milestone}) contains information regarding each of the items considered
   a milestone in the history of data visualization, linked to other tables 
-  (e.g., \texttt{reference}, \texttt{mediaitem}) by unique keys.
-  Other supporting tables, not shown here, provide for convenient lookup of 
+  (e.g., \texttt{reference}, \texttt{mediaitem}) by unique (primary) keys.
+  Other supporting tables (e.g., \texttt{milestone2aspect}) provide for convenient lookups of 
   descriptors of these milestones items (\texttt{subject}, \texttt{aspect}, \texttt{keyword}).
   }
-  \label{fig:datavis-db-schema}
+  \label{fig:datavis-schema-2}
 \end{figure}
 
 
@@ -65,5 +90,5 @@ In addition, we maintain an offline image database comprising over 1100 images c
 various sources, ...
 
 \figref{fig:datavis-timeline2} shows the timeline view of the miletsones items displayed on the
-landing page. ...
+landing page. 
 
