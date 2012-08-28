@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  28 AUG 2012 14:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  28 AUG 2012 16:46
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -205,14 +205,14 @@ File: fig/datavis-schema-2.pdf Graphic file (type pdf)
 <fig/datavis-timeline2.png, id=37, 823.57687pt x 367.3725pt>
 File: fig/datavis-timeline2.png Graphic file (type png)
 
-<use fig/datavis-timeline2.png>)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+<use fig/datavis-timeline2.png>) (./vistime.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
  [5 <./fig/datavis-schema-2.pdf>] <fig/timespan.pdf, id=256, 768.203pt x 711.99
 399pt>
 File: fig/timespan.pdf Graphic file (type pdf)
@@ -225,8 +225,8 @@ File: fig/Adams1881-4.jpg Graphic file (type jpg)
 <fig/milecatline.pdf, id=303, 568.1225pt x 285.065pt>
 File: fig/milecatline.pdf Graphic file (type pdf)
 
-<use fig/milecatline.pdf> [8 <./fig/Adams1881-4.jpg>] [9 <./fig/milecatline.pdf
->] <fig/lifespan.pdf, id=317, 722.7pt x 289.08pt>
+<use fig/milecatline.pdf> [8 <./fig/Adams1881-4.jpg>]) [9 <./fig/milecatline.pd
+f>] <fig/lifespan.pdf, id=317, 722.7pt x 289.08pt>
 File: fig/lifespan.pdf Graphic file (type pdf)
  <use fig/lifespan.pdf>
 [10 <./fig/lifespan.pdf>]
@@ -236,8 +236,8 @@ File: fig/authormap.png Graphic file (type png)
 (./FriendlySigal2012.bbl [11] [12 <./fig/authormap.png (PNG copy)>] [13])
 [14] (./FriendlySigal2012.aux) ) 
 Here is how much of TeX's memory you used:
- 2139 strings out of 495061
- 29571 string characters out of 1182567
+ 2142 strings out of 495061
+ 29602 string characters out of 1182567
  85167 words of memory out of 3000000
  5294 multiletter control sequences out of 15000+50000
  11195 words of font info for 39 fonts, out of 3000000 for 9000
