@@ -1,6 +1,6 @@
  \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\SortNoop}[1]{}
   \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\de}[1]{d'#1}
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Balbi and Guerry(1829)}]{BalbiGuerry:1829}
@@ -210,6 +210,12 @@ Playfair, W. (1801).
 Porter, T.~M. (1986).
 \newblock \emph{The Rise of Statistical Thinking 1820--1900}.
 \newblock Princeton, NJ: Princeton University Press.
+
+\bibitem[{Priestley(1765)}]{Priestley:1765}
+Priestley, J. (1765).
+\newblock \emph{A Chart of Biography}.
+\newblock London: (n.p.).
+\newblock \Loc{BL: 611.I.19}.
 
 \bibitem[{Riddell(1980)}]{Riddell:1980}
 Riddell, R.~C. (1980).

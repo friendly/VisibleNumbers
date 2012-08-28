@@ -76,7 +76,7 @@ Finally, the Milestones database itself will be used to showcase how such a reso
 \end{itemize*}
 
 \epigraph{What does history look like?  How do you draw time?}{\citet[p. 10]{RosenbergGrafton:2010}}
-The questions in this quotation from \emph{Cartographies of Time: A History of the Timeline} \citet{RosenbergGrafton:2010}
+The questions in this quotation from \emph{Cartographies of Time: A History of the Timeline} \citep{RosenbergGrafton:2010}
 introduce an important topic in the history of data visualization: how to visualize this history?
 Time provides one obvious dimension, but what else can be included to show the details of a history in a static display
 or allow users to see more using dynamic and interactive displays?
@@ -85,7 +85,55 @@ We have also provided an annotated visual gallery of some timeline designs and v
 in our Data Visualization Gallery at \url{datavis.ca/gallery/timelines.php}. The topics covered
 include early visual histories, encyclopedic charts, special purpose charts, correlated histories
 showing events in one domain in the context of events in other areas, non-linear scales for
-time and space as well as dynamic, interactive timelines.  Here we just consider a few examples.
+time and space as well as dynamic, interactive timelines.  Here we just consider a few fresh examples.
+
+\subsection{The first timelines, reconsidered}
+Although there are earlier precursors, the first timelines of modern design---
+a horizontal, linear axis for time and vertical positions for place, theme or category of events---
+were produced in the mid 1700s, most notably Jacques Barbeau-Doubourg's 1753
+\emph{Carte chronologique} and Joseph Priestley's 1765 \emph{Chart of Biography}.
+
+Priestley first published a small ``Specimen'' of this chart as a proof-of-concept,
+showing the lifespan of famous men in the years 600 BC to 0 AD, classified as
+``statesmen'' (Solon,  $\dots$, Julius Caesar) and ``men of learning'' (Pythagoras, $\dots$, Ovid).
+In the same year he published the detailed version \citep{Priestley:1765}
+ that quickly became the most popular
+and influential timeline of the \Cent{19} and for many years to come.  It showed the
+lifespans of more than 2000 people from 1200 BC to 1750 AD, classified by their areas
+of achievement (statesmen \& warriors, mathematicians \& physicians, artists \& poets, $\dots$).
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=.85\textwidth,clip]{fig/timespan}
+  \caption{A modern re-design of Priestley's 1765 \emph{Chart of Biography},
+  using information on authors in the Milestones database born in France or the
+  United Kindgom. Authors are sorted within country by year of birth and labeled
+  alternately at birth and death years, allowing both better lookup and visual
+  comparison.
+  }
+  \label{fig:timespan}
+\end{figure}
+
+Priestly's timeline charts can be seen on our Data Visualization Gallery, and we don't reproduce
+them here.  Instead we show (\figref{fig:timespan}) a re-design, in his style, of the lifespans
+of 79 authors from the Milestones database who were born in France or the United Kindgom between
+1500 and 2000. 
+
+\citet[p. 117]{RosenbergGrafton:2010} call Priestley's charts ``masterpieces of visual economy.''
+Indeed, they were at the time.  However, in his charts, the famous people were arranged 
+haphazardly within category groups, so it is difficult to find specific individuals, 
+and nearly impossible to see any trends, over time, or across categories. 
+
+In our version, authors are sorted by birth year within each country and the names are printed
+alternately at the year of birth and death. The result, which resembles a cumulative distribution
+plot: (a) allows easier visual lookup of names, (b) provides an overall ``lifespan envelope,''
+and (c) highlights a few individuals who lived conspicously shorter or longer than their
+contemporaries (e.g. shorter: Willam Jevons,  James Maxwell, John Snow, Phillipe Buache).
+
+Of course, to display lifespan \emph{directly} requires a different kind of plot, but one that
+would not have been even thinkable by Priestley in 1765.  We return to this question in
+\secref{sec:lifespan} (see \figref{fig:lifespan}).
+
 
 \subsection{Universal histories}
 In addition to unrivaled thematic maps and statistical diagrams, the Golden Age of graphics also
