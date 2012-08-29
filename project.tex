@@ -76,7 +76,9 @@ various sources. Over time, we will continue to add these to the online database
 \subsection{User interface}
 The second challenge related to how to display such a large amount of information in an easy to understand
 user interface to provide overview, search, and details about these events in the history of
-data visualization. ...
+data visualization. We decided to retain the time-based grouping of the milestones content by 
+epochs (Pre-1600, 1600s, 1700s, etc.), each with a theme (e.g., 1600--1699: Measurement and theory)
+and descriptive text.
 
 \begin{figure}[!htb]
   \centering
@@ -90,7 +92,21 @@ data visualization. ...
   \label{fig:datavis-timeline2}
 \end{figure}
 
+The visual design of the
+interface follows Ben Shneiderman's mantra: ``Overview first, zoom and filter, then details on demand''
+\citep{Shneiderman:1996:IEEE}.
+To do this, 
+we added a timeline view (\figref{fig:datavis-timeline2}) of the milestones items displayed on the overview
+landing page. This timeline, based on the SIMILE Timeline Widget (\url{http://www.simile-widgets.org/timeline})
+allows multiple connected bands, showing events at different resolutions.  Each band can be separately panned
+by dragging with the mouse pointer, scroll wheel or keyboard arrow keys.  The top panel shows individual milestone
+items with brief text tags and color-coded item categories.
+Clicking on an item in this panel brings up small description, linked to the details of the milestone item.
 
-\figref{fig:datavis-timeline2} shows the timeline view of the milestones items displayed on the
-landing page. 
+The timeline view, although most obvious, is just one of several possibilities for a visual overview
+or interaction with the display of the milestones database to support search and exploration.
+The software design of the site, using open-source tool kits, makes it relatively simple to add new
+ones.  We illustrate a map-based display in \secref{sec:geography}.
+
+
 

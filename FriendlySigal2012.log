@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  28 AUG 2012 16:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  29 AUG 2012 13:36
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -205,44 +205,44 @@ File: fig/datavis-schema-2.pdf Graphic file (type pdf)
 <fig/datavis-timeline2.png, id=37, 823.57687pt x 367.3725pt>
 File: fig/datavis-timeline2.png Graphic file (type png)
 
-<use fig/datavis-timeline2.png>) (./vistime.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
+<use fig/datavis-timeline2.png> [5 <./fig/datavis-schema-2.pdf>])
+(./vistime.tex [6 <./fig/datavis-timeline2.png (PNG copy)>]
+<fig/timespan.pdf, id=260, 768.203pt x 711.99399pt>
+File: fig/timespan.pdf Graphic file (type pdf)
+ <use fig/timespan.pdf>
+[7 <./fig/timespan.pdf>]
+<fig/Adams1881-4.jpg, id=301, 1302.8675pt x 702.625pt>
+File: fig/Adams1881-4.jpg Graphic file (type jpg)
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+<use fig/Adams1881-4.jpg> [8 <./fig/Adams1881-4.jpg>]
+<fig/milecatline.pdf, id=307, 568.1225pt x 285.065pt>
+File: fig/milecatline.pdf Graphic file (type pdf)
+
+<use fig/milecatline.pdf>)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
- [5 <./fig/datavis-schema-2.pdf>] <fig/timespan.pdf, id=256, 768.203pt x 711.99
-399pt>
-File: fig/timespan.pdf Graphic file (type pdf)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 
-<use fig/timespan.pdf> [6 <./fig/datavis-timeline2.png (PNG copy)>] [7 <./fig/t
-imespan.pdf>] <fig/Adams1881-4.jpg, id=301, 1302.8675pt x 702.625pt>
-File: fig/Adams1881-4.jpg Graphic file (type jpg)
-
-<use fig/Adams1881-4.jpg>
-<fig/milecatline.pdf, id=303, 568.1225pt x 285.065pt>
-File: fig/milecatline.pdf Graphic file (type pdf)
-
-<use fig/milecatline.pdf> [8 <./fig/Adams1881-4.jpg>]) [9 <./fig/milecatline.pd
-f>] <fig/lifespan.pdf, id=317, 722.7pt x 289.08pt>
+[9 <./fig/milecatline.pdf>] <fig/lifespan.pdf, id=316, 722.7pt x 289.08pt>
 File: fig/lifespan.pdf Graphic file (type pdf)
- <use fig/lifespan.pdf>
-[10 <./fig/lifespan.pdf>]
-<fig/authormap.png, id=329, 751.30687pt x 377.91188pt>
+
+<use fig/lifespan.pdf> [10] [11 <./fig/lifespan.pdf>]
+<fig/authormap.png, id=332, 751.30687pt x 377.91188pt>
 File: fig/authormap.png Graphic file (type png)
  <use fig/authormap.png>
-(./FriendlySigal2012.bbl [11] [12 <./fig/authormap.png (PNG copy)>] [13])
-[14] (./FriendlySigal2012.aux) ) 
+(./FriendlySigal2012.bbl [12 <./fig/authormap.png (PNG copy)>] [13] [14])
+[15] (./FriendlySigal2012.aux) ) 
 Here is how much of TeX's memory you used:
- 2142 strings out of 495061
- 29602 string characters out of 1182567
- 85167 words of memory out of 3000000
- 5294 multiletter control sequences out of 15000+50000
- 11195 words of font info for 39 fonts, out of 3000000 for 9000
+ 2146 strings out of 495061
+ 29704 string characters out of 1182567
+ 85199 words of memory out of 3000000
+ 5298 multiletter control sequences out of 15000+50000
+ 11541 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,632b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,8n,32p,632b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -258,9 +258,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts
 ic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pf
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on FriendlySigal2012.pdf (14 pages, 1834946 bytes).
+Output written on FriendlySigal2012.pdf (15 pages, 1836582 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
+ 402 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
