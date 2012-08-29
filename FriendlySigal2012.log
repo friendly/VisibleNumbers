@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  29 AUG 2012 13:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  29 AUG 2012 17:00
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -242,7 +242,7 @@ Here is how much of TeX's memory you used:
  5298 multiletter control sequences out of 15000+50000
  11541 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,632b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,8n,32p,632b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -258,7 +258,7 @@ xlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts
 ic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pf
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on FriendlySigal2012.pdf (15 pages, 1836582 bytes).
+Output written on FriendlySigal2012.pdf (15 pages, 1837360 bytes).
 PDF statistics:
  402 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
