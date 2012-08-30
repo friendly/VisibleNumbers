@@ -66,7 +66,7 @@ $(MAIN).ps: $(MAIN).dvi
 #references.bib : $(MAIN).aux
 #	aux2bib $(MAIN)
 # Switch to using bibtool
-$(MAIN).bib : 
+$(MAIN).bib: 
 	$(BIBTOOL) -x $(MAIN).aux -o $(MAIN).bib
 	
 ## Hand edited FIGLIST because of multiple images/fig
