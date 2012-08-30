@@ -88,19 +88,21 @@ historical innovations, developments, and trends.
 We use the term ``statistical historiography,''
 to refer to the use of statistical and graphical methods to
 explore, study and describe historical problems and questions.%
-\footnote{As far as we know, the initial expression of this idea appeared in a paper by
-\citet{Rubin:1943} discussing various ways in which statistical methods could be applied
-to historical topics.  These included the use of sampling methods to test historical theories,
-statistical distributions applied to historical data, and the use of
-time series graphs with smoothed curves to study historical trends.
-More recently, many examples of the application of these ideas to statistical topics
-can be found in \citet{Stigler:1986,Stigler:1999}, as well as our own papers
-on the history of data visualization,
-cited \emph{inter alia}.
+\footnote{
+  As far as we know, the initial expression of this idea appeared in a paper by
+  \citet{Rubin:1943} discussing various ways in which statistical methods could be applied
+  to historical topics.  These included the use of sampling methods to test historical theories,
+  statistical distributions applied to historical data, and the use of
+  time series graphs with smoothed curves to study historical trends.
+  More recently, many examples of the application of these ideas to statistical topics
+  can be found in \citet{Stigler:1986,Stigler:1999}, as well as our own papers
+  on the history of data visualization,
+  cited \emph{inter alia}.
 }
 This topic has a delightful self-referential quality when applied to the history of data visualization itself,
 since we have often found ourselves using modern methods of statistical analysis and graphics to study
-the development of ideas in this area.
+the development of ideas in this area. As in the quotation from Swift above, one goal is to make aspects
+of this history more visible.
 
 At the same time, our examination of some of the most
 impressive graphic works of the past sometimes left us awe-struck by their exquisite
@@ -115,14 +117,20 @@ crimes to a wide variety of social and demographic factors \citep[see:][]{Friend
 On more than one occasion, we wondered whether there wasn't something lost with the advent of modern
 software: We can now analyze massive data sets and generate many graphs with simple mouse clicks
 or software commands, but designing a truly effective graphic display requires much thought and
-a lot of manual intervention.
+a lot of manual intervention. 
+
+Yet, it is often quite instructive to attempt to re-create or
+even re-vision a graphic work from the past \citep{Friendly:02:Minard}. We learn from
+this an appreciation of the insight and hard labor of our graphic heros, and
+can sometimes better understand or improve on their designs by a process we call
+``understanding through reproduction,'' another facet of statistical historiography.
 
 There is, of course,  one principal requirement for statistical historiography: \textbf{data}.
 The milestones database is the repository of all the information we have so far recorded,
 and modern database tools allow the possibility of simple or complex queries, limited only
 by the available information.
 \footnote{
-  It should be noted that beyond the basics of recording milestones items, images and references
+  It should be noted that, beyond the basics of recording milestones items, images and references,
   the other meta-data (content and form categories, keywords, etc.) was highly labor-intensive.
   Thanks are due to many research assistants and graduate students who have worked on the Milestones
   Project, including
@@ -136,7 +144,12 @@ by the available information.
 In related work, we have also collected and disseminated
 data sets of historical interest on a variety of
 topics in statistics and data visualization, for example in the R packages
-HistData \citep{HistData} and Guerry \citep{Guerry}.
+HistData \citep{HistData} and Guerry \citep{Guerry}. These can be considered as
+another source for data, pictures and stories
+related to statistical historiography and understanding through reproduction.
+This is the essence of the motto on the \url{datavis.ca} web site:
+\emph{Looking back, going forward}.
+
 
 In the subsections below, we describe a few applications of these ideas using the milestones
 database and case studies that arose from this work. There is an interesting interplay between
@@ -162,13 +175,13 @@ to determine the dates and places of their birth and death in a large number of 
   \label{fig:lifespan}
 \end{figure}
 
-One simple question is how long did these contributors live? As illustrated earlier (figref:)
+One simple question is how long did these contributors live? As illustrated earlier (\figref{fig:timespan})
 Joseph Priestley was the first to develop the idea of using a graphic representation to show
 the lifespan of famous men. His ``charts of biography'' did this in a particularly evocative
 form, showing each person by a line segment identified by name, and grouped into
 occupational categories.
 
-However, such ``lifeline'' charts don't provide any answers to this question.  With the
+However, such ``timespan'' charts don't provide any answers to this question.  With the
 author table, it is a simple matter to calculate lifespan, and give a direct answer
 with the help of software.  \figref{fig:lifespan} shows one display of this information,
 using a combined density plot and rug plot, as we used in \figref{fig:mileyears4}.
