@@ -6,12 +6,16 @@
 \usepackage{mdwlist}
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage{epigraph}
 \usepackage{comment}
 
+% a bit more spacing between paragraphs
 \setlength{\parskip}{1ex plus 0.5ex minus 0.5ex}
+
+% epigraphs, used after section heads
+%\usepackage{epigraph}
 % set width for \epigraph{}{}
-\setlength{\epigraphwidth}{.8\textwidth}
+%\setlength{\epigraphwidth}{.8\textwidth}
+\newcommand*{\epigraph}[2]{{\renewcommand{\baselinestretch}{1}\normalfont\emph{#1}\hfill---#2\par\vspace{1ex}}}
 
 \newcommand{\TODO}[1]{\begin{quotation}\noindent\color{blue}\textbf{ToDo}: #1\end{quotation}}
 
@@ -25,7 +29,6 @@
 \newcommand{\Cent}[1]{#1$^{th}$ century}
 %\newcommand{\keywords}[1]{\par\noindent\textbf{Key words:} #1}
 \newcommand*{\boldital}[1]{\textit{\textbf{#1}}}
-%\newcommand*{\epigraph}[2]{{\renewcommand{\baselinestretch}{1}\normalfont\emph{#1}\hfill---#2\par\vspace{1ex}}}
 \newcommand*{\degree}[1]{\ensuremath{{#1}^{\circ}}}
 
 \newcommand*{\scat}{scatterplot}
@@ -72,10 +75,14 @@ historical innovations, developments, and trends.
 \input{vistime}  % \S3
 
 \section{Using the Milestones Project for Statistical Historiography}\label{sec:historiography}
+\epigraph{Vision is the art of seeing things invisible}{Johnathan Swift, 1711}
+
+\begin{comment}
 \begin{itemize*}
   \item comparisons of graphical innovations by field (e.g. physical sciences vs. social sciences), in terms of content and form
   \item extract themes and relationships between content areas
 \end{itemize*}
+\end{comment}
 
 \subsection{Statistical historiography}\label{sec:stathist}
 We use the term ``statistical historiography,''
@@ -103,8 +110,7 @@ Charles Joseph Minard's famous depiction of Napoleon's March on Moscow \citep{Fr
 Francis Galton's detailed study of weather patterns in Europe \citep[see:][]{Friendly:2008:golden},
 and Andr{\'e}-Michel Guerry's \citep[Plate 17]{Guerry:1864}
 semi-graphic table depicting the relations of occurrence of
-crimes to a wide variety of social and demographic factors \citep[see:][]{Friendly:2007:guerry}
-...
+crimes to a wide variety of social and demographic factors \citep[see:][]{Friendly:2007:guerry}.
 }
 On more than one occasion, we wondered whether there wasn't something lost with the advent of modern
 software: We can now analyze massive data sets and generate many graphs with simple mouse clicks
@@ -115,6 +121,17 @@ There is, of course,  one principal requirement for statistical historiography: 
 The milestones database is the repository of all the information we have so far recorded,
 and modern database tools allow the possibility of simple or complex queries, limited only
 by the available information.
+\footnote{
+  It should be noted that beyond the basics of recording milestones items, images and references
+  the other meta-data (content and form categories, keywords, etc.) was highly labor-intensive.
+  Thanks are due to many research assistants and graduate students who have worked on the Milestones
+  Project, including
+  Dan Denis,
+  Matt Dubins,
+  Yvonne Lai,
+  Avi Lipton, and
+  Carolina Patryluk.
+}
 
 In related work, we have also collected and disseminated
 data sets of historical interest on a variety of
@@ -221,6 +238,53 @@ overview page to the milestones site.
   \label{fig:authormap}
 \end{figure}
 
+\subsection{Milestones: themes and trends}\label{sec:themes}
+The milestones database records various text fields for each event in this history:
+a brief item tag, a full description of the event, relevant keywords, as well as categorical
+codes for the content (Subject) and form  (Aspect) of the milestone item.
+Treating this information as ``data'' allows us and others to study themes and trends
+in these developments.  Modern methods of text mining and data visualization 
+can perhaps provide insights into this history not available through other means.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth,clip]{fig/milecats4}
+  \caption{Mosaic displays for milestones items, classified by Epoch, Subject and Aspect.
+  Left: mosaic for the marginal table showing differences in Subject across Epochs;
+  Right: mosaic for the marginal table showing differences in Subject across Aspect.
+  Numbers in the tiles give the number of milestones items.
+  }
+  \label{fig:milecats4}
+\end{figure}
+
+As one simple illustration of this approach, \figref{fig:milecats4} shows two mosaic displays%
+\footnote{Mosaic displays show the frequencies in cells of a cross-classified table
+by the area of each tile.  The tiles are shaded according to departure from a null
+model of no-association, using blue for cells with frequencies substantially greater
+than chance and red for cells with much lower frequencies than expected.
+}
+exploring the relationships
+among Epoch, Subject and Aspect.
+
+The left panel shows changes in the distributions of milestone events by Subject
+over time.  It can readily be seen that while most of the milestone innovations
+up to the end of the \Cent{18} had were about the 
+physical world (astronomy, geodetic measurement, weather, etc.)
+in the \Cent{19} there is a large shift to problems related to human populations
+(mortality, births, disease, crime).
+Beginning in the early 1900s, the pattern begins to shift toward advances in
+mathematics and statistics.
+
+The right panel shows the association between Subject and Aspect, pooled over Epoch.
+As is not surprising, maps and other cartographical representations were most often
+used to show data of the physical world, while graphs and diagrams were most often 
+associated with mathematical and statistical subjects.
+
+Other statistical graphs and analyses could be used to explore these and other
+relationships
+in more detail. The key to this is of course data--- in this case reflected in the
+coding of milestones items in the database.
+
 
 
 \section{Conclusion and Future Directions}
@@ -232,9 +296,10 @@ by friends and collaborators, most notably the members of
 \emph{Les Chevaliers des Albums de Statistique Graphique}.
 
 In this chapter we describe the second iteration of this project, designed to make this history
-more accessible for browsing and searching, and also to begin to make this ...
+more accessible for browsing and searching, and also to begin to make the database more amenable
+to additions, edits, and extensions among collaborators.
 
-
+...
 
 \bibliography{graphics,timeref,Rpackages}
 %\bibliography{FriendlySigal2012}        % after being processed bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc -x FriendlySigal2012.aux -o FriendlySigal2012.bib

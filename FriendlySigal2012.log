@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  30 AUG 2012 09:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  30 AUG 2012 15:52
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -92,31 +92,24 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/home/friendly/texmf/tex/latex/misc/epigraph.sty
-Package: epigraph 2000/01/16 v1.4 typesetting epigraphs
-\beforeepigraphskip=\skip45
-\afterepigraphskip=\skip46
-\epigraphwidth=\skip47
-\epigraphrule=\skip48
-)
 (/usr/share/texmf-texlive/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment') (./FriendlySigal2012.aux)
 \openout1 = `FriendlySigal2012.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -173,20 +166,18 @@ driver: pdftex
 \everyMPtoPDFconversion=\toks17
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
+(Font)              <12> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <8> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
+(Font)              <6> on input line 49.
  (./intro.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -218,49 +209,46 @@ File: fig/Adams1881-4.jpg Graphic file (type jpg)
 <fig/milecatline.pdf, id=307, 568.1225pt x 285.065pt>
 File: fig/milecatline.pdf Graphic file (type pdf)
 
-<use fig/milecatline.pdf>)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-
-[9 <./fig/milecatline.pdf>] <fig/lifespan.pdf, id=316, 722.7pt x 289.08pt>
+<use fig/milecatline.pdf>) [9 <./fig/milecatline.pdf>]
+<fig/lifespan.pdf, id=316, 722.7pt x 289.08pt>
 File: fig/lifespan.pdf Graphic file (type pdf)
-
-<use fig/lifespan.pdf> [10] [11 <./fig/lifespan.pdf>]
+ <use fig/lifespan.pdf> [10]
+[11 <./fig/lifespan.pdf>]
 <fig/authormap.png, id=332, 751.30687pt x 377.91188pt>
 File: fig/authormap.png Graphic file (type png)
  <use fig/authormap.png>
-(./FriendlySigal2012.bbl [12 <./fig/authormap.png (PNG copy)>] [13] [14])
-[15] (./FriendlySigal2012.aux) ) 
+<fig/milecats4.pdf, id=334, 383.4325pt x 183.68625pt>
+File: fig/milecats4.pdf Graphic file (type pdf)
+ <use fig/milecats4.pdf>
+[12 <./fig/authormap.png (PNG copy)>] (./FriendlySigal2012.bbl [13 <./fig/milec
+ats4.pdf>] [14] [15]) [16] (./FriendlySigal2012.aux) ) 
 Here is how much of TeX's memory you used:
- 2155 strings out of 495061
- 29932 string characters out of 1182567
- 85301 words of memory out of 3000000
- 5307 multiletter control sequences out of 15000+50000
+ 2103 strings out of 495061
+ 29192 string characters out of 1182567
+ 84618 words of memory out of 3000000
+ 5261 multiletter control sequences out of 15000+50000
  11541 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,632b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
-6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on FriendlySigal2012.pdf (15 pages, 1838999 bytes).
+ 26i,8n,32p,632b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb>
+Output written on FriendlySigal2012.pdf (16 pages, 1871536 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
+ 434 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
