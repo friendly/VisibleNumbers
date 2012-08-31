@@ -1,6 +1,6 @@
  \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\SortNoop}[1]{}
   \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\de}[1]{d'#1}
-\begin{thebibliography}{50}
+\begin{thebibliography}{51}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Balbi and Guerry(1829)}]{BalbiGuerry:1829}
@@ -314,5 +314,11 @@ Wallis, H.~M. and Robinson, A.~H. (1987).
 \newblock \emph{Cartographical Innovations: An International Handbook of
   Mapping Terms to 1900}.
 \newblock Tring, Herts: Map Collector Publications.
+
+\bibitem[{Wills(2012)}]{Wills:2012}
+Wills, G. (2012).
+\newblock \emph{Visualizing Time: Designing Graphical Representations for
+  Statistical Data}.
+\newblock Statistics and computing. New York: Springer.
 
 \end{thebibliography}

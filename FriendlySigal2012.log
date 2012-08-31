@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  30 AUG 2012 17:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  31 AUG 2012 09:18
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -198,19 +198,19 @@ File: fig/datavis-timeline2.png Graphic file (type png)
 
 <use fig/datavis-timeline2.png> [5 <./fig/datavis-schema-2.pdf>])
 (./vistime.tex [6 <./fig/datavis-timeline2.png (PNG copy)>]
-<fig/timespan.pdf, id=260, 768.203pt x 711.99399pt>
+<fig/timespan.pdf, id=261, 768.203pt x 711.99399pt>
 File: fig/timespan.pdf Graphic file (type pdf)
  <use fig/timespan.pdf>
 [7 <./fig/timespan.pdf>]
-<fig/Adams1881-4.jpg, id=301, 1302.8675pt x 702.625pt>
+<fig/Adams1881-4.jpg, id=302, 1302.8675pt x 702.625pt>
 File: fig/Adams1881-4.jpg Graphic file (type jpg)
 
 <use fig/Adams1881-4.jpg> [8 <./fig/Adams1881-4.jpg>]
-<fig/milecatline.pdf, id=307, 568.1225pt x 285.065pt>
+<fig/milecatline.pdf, id=308, 568.1225pt x 285.065pt>
 File: fig/milecatline.pdf Graphic file (type pdf)
 
 <use fig/milecatline.pdf>) [9 <./fig/milecatline.pdf>]
-<fig/lifespan.pdf, id=316, 722.7pt x 289.08pt>
+<fig/lifespan.pdf, id=317, 722.7pt x 289.08pt>
 File: fig/lifespan.pdf Graphic file (type pdf)
  <use fig/lifespan.pdf> [10]
 [11 <./fig/lifespan.pdf>]
@@ -220,33 +220,33 @@ File: fig/authormap.png Graphic file (type png)
 <fig/milecats4.pdf, id=334, 383.4325pt x 183.68625pt>
 File: fig/milecats4.pdf Graphic file (type pdf)
  <use fig/milecats4.pdf>
-[12 <./fig/authormap.png (PNG copy)>] (./FriendlySigal2012.bbl [13 <./fig/milec
-ats4.pdf>] [14] [15]) [16] (./FriendlySigal2012.aux) ) 
+[12 <./fig/authormap.png (PNG copy)>] [13 <./fig/milecats4.pdf>]
+(./FriendlySigal2012.bbl [14] [15]) [16] (./FriendlySigal2012.aux) ) 
 Here is how much of TeX's memory you used:
- 2103 strings out of 495061
- 29192 string characters out of 1182567
- 84618 words of memory out of 3000000
- 5261 multiletter control sequences out of 15000+50000
+ 2106 strings out of 495061
+ 29246 string characters out of 1182567
+ 84644 words of memory out of 3000000
+ 5264 multiletter control sequences out of 15000+50000
  11541 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,632b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb>
-Output written on FriendlySigal2012.pdf (16 pages, 1872194 bytes).
+ 26i,8n,32p,632b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb>
+Output written on FriendlySigal2012.pdf (16 pages, 1874660 bytes).
 PDF statistics:
  434 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
