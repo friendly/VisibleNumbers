@@ -13,6 +13,7 @@
 *.out
 *.eml
 *0.sas
+*.DS_Store
 # special files
 tags
 Distfile

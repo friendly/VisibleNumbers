@@ -49,33 +49,27 @@
 \maketitle
 
 \begin{abstract}
-Approaches to modern data visualization have evolved substantially from the first thematic maps of the 1600s and the
-first bar charts and line graphs
-in the early 1800s to the dynamic and interactive graphics of today.
-Over the course of this history, there have been many detailed written studies, both comprehensive
-and on particular aspects. But there has never been an attempt to collect this history 
-in a single place for display, search or query and even data analysis or graphics based on this history.
-%scholars have taken a variety of approaches to show how particular factors of interest have changed over time.
+\begin{comment}
+Re-reading the abstract, I think it could be rephrased slightly to update the language with more modern historical scholarship (most of the changes are in paragraph 1).  Here is what I propose:
 
-The purpose of this chapter is threefold: first, to introduce the reader to an online resource called the Milestones Project. 
-This website highlights important events in the history of data visualization, and enables users to interactively travel through time to see and explore
-the context that surrounded their developments. Secondly, we present some visual
-examples that
-deal with conveying aspects of history
-over time, drawn from this resource.
-% and discussed in terms of their goals, similarities, and differences.
-Finally, the Milestones database  will be used to showcase how such a resource can serve as ``data'' 
-for \emph{statistical historiography}, which entails the use of statistical and graphical methods for the analysis and understanding of 
-historical innovations, developments, and trends.
+Methods of data visualization have evolved substantially over their relatively brief history.  Landmarks in this story were the first thematic maps in the 1600s, the invention of the bar chart and the line graph in the early 1800s, and the dynamic and interactive graphics of today.  While these developments have been previously detailed in various micro-histories, they were aimed at a privileged and academic audience, and a publicly accessible and free space to house a macro-history in its totality did not exist.
+
+The purpose of this chapter is threefold: first, to introduce the reader our solution to this absence through an online resource called the Milestones Project. This website highlights important events in the history of data visualization, and enables users to interactively travel through time to see and explore the context that surrounded their developments. Secondly, we present some striking visual examples that deal with conveying aspects of history over time, drawn from this resource. Finally, the Milestones database itself will be used to showcase how such a resource can serve as ``data'' for \emph{statistical historiography}, which entails the use of statistical and graphical methods for the analysis and understanding of historical innovations, developments, and trends.
+\end{comment}
+
+Approaches to modern data visualization have evolved substantially from the first thematic maps of the 1600s and the first bar charts and line graphs in the early 1800s to the dynamic and interactive graphics of today. Over the course of this history, there have been many detailed written studies, both comprehensive and on particular aspects. But there has never been an attempt to collect this history in a single place for display, search or query and even data analysis or graphics based on this history.
+
+The purpose of this chapter is threefold: first, to introduce the reader to an online resource called the Milestones Project. This website highlights important events in the history of data visualization, and enables users to interactively travel through time to see and explore the context that surrounded their developments. Secondly, we present some visual examples that deal with conveying aspects of history over time, drawn from this resource.
+
+Finally, the Milestones database will be used to showcase how such a resource can serve as ``data'' for \emph{statistical historiography}, which entails the use of statistical and graphical methods for the analysis and understanding of historical innovations, developments, and trends.
 \end{abstract}
-
 
 \input{intro}    % \S1
 \input{project}  % \S2
 \input{vistime}  % \S3
 
 \section{Using the Milestones Project for Statistical Historiography}\label{sec:historiography}
-\epigraph{Vision is the art of seeing things invisible}{Johnathan Swift, 1711}
+\epigraph{Vision is the art of seeing things invisible.}{Johnathan Swift, 1711}
 
 \begin{comment}
 \begin{itemize*}
@@ -85,234 +79,80 @@ historical innovations, developments, and trends.
 \end{comment}
 
 \subsection{Statistical historiography}\label{sec:stathist}
-We use the term ``statistical historiography,''
-to refer to the use of statistical and graphical methods to
-explore, study and describe historical problems and questions.%
-\footnote{
-  As far as we know, the initial expression of this idea appeared in a paper by
-  \citet{Rubin:1943} discussing various ways in which statistical methods could be applied
-  to historical topics.  These included the use of sampling methods to test historical theories,
-  statistical distributions applied to historical data, and the use of
-  time series graphs with smoothed curves to study historical trends.
-  More recently, many examples of the application of these ideas to statistical topics
-  can be found in \citet{Stigler:1986,Stigler:1999}, as well as our own papers
-  on the history of data visualization,
-  cited \emph{inter alia}.
-}
-This topic has a delightful self-referential quality when applied to the history of data visualization itself,
-since we have often found ourselves using modern methods of statistical analysis and graphics to study
-the development of ideas in this area. As in the quotation from Swift above, one goal is to make aspects
-of this history more visible.
+We use the term ``statistical historiography,'' to refer to the use of statistical and graphical methods to explore, study and describe historical problems and questions.%
+\footnote{As far as we know, the initial expression of this idea appeared in a paper by \citet{Rubin:1943} discussing various ways in which statistical methods could be applied to historical topics.  These included: the use of sampling methods to test historical theories; statistical distributions applied to historical data; and, the use of time series graphs with smoothed curves to study historical trends. More recently, many examples of the application of these ideas to statistical topics can be found in \citet{Stigler:1986,Stigler:1999}, as well as our own papers on the history of data visualization, cited \emph{inter alia}.} 
+This topic has a delightful self-referential quality when applied to the history of data visualization itself, since we have often found ourselves using modern methods of statistical analysis and graphics to study the development of ideas in this area. As in the quotation from Swift above, one goal is to make previously hidden aspects of this history visible.
 
-At the same time, our examination of some of the most
-impressive graphic works of the past sometimes left us awe-struck by their exquisite
-beauty and visual design.%
-\footnote{ Some examples are:
-Charles Joseph Minard's famous depiction of Napoleon's March on Moscow \citep{Friendly:02:Minard},
-Francis Galton's detailed study of weather patterns in Europe \citep[see:][]{Friendly:2008:golden},
-and Andr{\'e}-Michel Guerry's \citep[Plate 17]{Guerry:1864}
-semi-graphic table depicting the relations of occurrence of
-crimes to a wide variety of social and demographic factors \citep[see:][]{Friendly:2007:guerry}.
-}
-On more than one occasion, we wondered whether there wasn't something lost with the advent of modern
-software: We can now analyze massive data sets and generate many graphs with simple mouse clicks
-or software commands, but designing a truly effective graphic display requires much thought and
-a lot of manual intervention. 
+At the same time, our examination of some of the most impressive graphic works of the past sometimes left us awe-struck by their exquisite beauty and visual design.%
+\footnote{Some examples are: Charles Joseph Minard's famous depiction of Napoleon's March on Moscow \citep{Friendly:02:Minard}, Francis Galton's detailed study of weather patterns in Europe \citep[see:][]{Friendly:2008:golden}, and Andr{\'e}-Michel Guerry's \citep[Plate 17]{Guerry:1864} semi-graphic table depicting the relations of occurrence of crimes to a wide variety of social and demographic factors \citep[see:][]{Friendly:2007:guerry}.}
+On more than one occasion when looking at these elegant presentations, we wondered whether there wasn't something lost with the advent of modern software. While we can now analyze massive data sets, and generate a multitude of graphics with a simple mouse click, we still feel that designing a truly effective visual display of information requires thought and manual intervention. 
 
-Yet, it is often quite instructive to attempt to re-create or
-even re-vision a graphic work from the past \citep{Friendly:02:Minard}. We learn from
-this an appreciation of the insight and hard labor of our graphic heros, and
-can sometimes better understand or improve on their designs by a process we call
-``understanding through reproduction,'' another facet of statistical historiography.
+For this reason, it is often quite instructive to attempt to re-create or even re-vision a graphic work from the past \citep{Friendly:02:Minard}. We can learn from this undertaking an appreciation for the insight and hard labor of our graphic heros, and can sometimes better understand or improve on their designs by a process we call ``understanding through reproduction,'' another facet of statistical historiography.
 
-There is, of course,  one principal requirement for statistical historiography: \textbf{data}.
-The milestones database is the repository of all the information we have so far recorded,
-and modern database tools allow the possibility of simple or complex queries, limited only
-by the available information.
-\footnote{
-  It should be noted that, beyond the basics of recording milestones items, images and references,
-  the other meta-data (content and form categories, keywords, etc.) was highly labor-intensive.
-  Thanks are due to many research assistants and graduate students who have worked on the Milestones
-  Project, including
-  Dan Denis,
-  Matt Dubins,
-  Yvonne Lai,
-  Avi Lipton, and
-  Carolina Patryluk.
-}
+There is, of course,  one principal requirement for statistical historiography: \textbf{data}. The Milestones Project database is the repository of all the information we have so far recorded, and modern database tools allow the possibility of simple or complex queries, limited only by the available information.%
+\footnote{It should be noted that, beyond the basics of recording milestones items, images and references, inputting the other meta-data (content and form categories, keywords, etc.) is highly labor-intensive. Thanks are due to many research assistants and graduate students who have and continue to work on the Milestones Project, including Dan Denis, Matt Dubins, Yvonne Lai, Avi Lipton, and Carolina Patryluk.}
 
-In related work, we have also collected and disseminated
-data sets of historical interest on a variety of
-topics in statistics and data visualization, for example in the R packages
-HistData \citep{HistData} and Guerry \citep{Guerry}. These can be considered as
-another source for data, pictures and stories
-related to statistical historiography and understanding through reproduction.
-This is the essence of the motto on the \url{datavis.ca} web site:
-\emph{Looking back, going forward}.
+In related work, we have collected and disseminated data sets of historical interest on a variety of topics in statistics and data visualization, for instance via the \texttt{R} packages HistData \citep{HistData} and Guerry \citep{Guerry}. These can be considered another source for data, pictures, and stories related to statistical historiography, and understanding through reproduction. This is the essence of the motto on the \url{datavis.ca} web site: \emph{Looking back, going forward}.
 
-
-In the subsections below, we describe a few applications of these ideas using the milestones
-database and case studies that arose from this work. There is an interesting interplay between
-such historical analyses and these data collections. Some studies called for us to find and
-incorporate new data sources, such as our paper \citep{Friendly:2007:guerry} on
-Guerry's \emph{Moral statistics of France} and the Guerry package to which we added
-Angeville's 1836
-extensive data on social and economic characteristics of France.
-In other cases, our analyses suggested new or different ways to visualize historical data.
+In the subsections below, we describe a few applications of these ideas using the Milestones Project database and case studies that arose from this work. There is an interesting interplay between such historical analyses and these data collections. Some studies called for us to find and incorporate new data sources, such as our paper \citep{Friendly:2007:guerry} on Guerry's \emph{Moral statistics of France} and the Guerry package, to which we added Angeville's extensive 1836 data on social and economic characteristics of France. In other cases, our analyses suggested new or different ways to visualize historical data.
 
 \subsection{Milestone authors: lifespan}\label{sec:lifespan}
-As noted earlier, we record information relevant to the contributors of milestones events in an
-author table in the database. Internet and biographical searches for these persons allowed us
-to determine the dates and places of their birth and death in a large number of cases.
+As noted earlier, we record information relevant to the contributors of milestones events in an author table in the database. For most of these individuals, internet and biographical searches allowed us to determine the dates and places of their birth and death.
+
+One simple question that can be posed using this information is how long did these contributors live? As illustrated earlier (see \figref{fig:timespan}), Joseph Priestley was the first to develop the idea of using a graphic representation to show the lifespan of famous men. His ``charts of biography'' did this in a particularly evocative form, representing each person by a line segment whose length was defined by the individual's lifespan, and then grouped by occupational category. 
+
+These ``timespan'' charts tell an interesting story, but they do not provide a answer to the question of how long, in general, these individuals lived.  However, with the author table from the Milestones Project, it is a simple matter to calculate lifespan, and obtain a direct answer to this query. \figref{fig:lifespan} shows one display of this information, using a combined density plot and rug plot, similar to the one used in \figref{fig:mileyears4}.
 
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth,clip]{fig/lifespan}
-  \caption{Density plot of the lifespan of 172 authors in the milestones database born after 1500 and for whom
-  lifespan can be determined. Individual observations are shown by a (jittered) rug plot, and the three extremes
-  on each end are identified by name.  The dashed lines show the quartiles of the distribution.
-  }
+  \includegraphics[width=\textwidth,clip]{fig/lifespan2}
+  \caption{Density plot of the lifespan of the 172 authors in the Milestones Project database who were born after 1500 and for whom lifespan can be determined. Individual observations are shown by a (jittered) rug plot, and the three extremes on each end are identified by name.  The red vertical lines show the quartiles of the distribution.}
   \label{fig:lifespan}
 \end{figure}
 
-One simple question is how long did these contributors live? As illustrated earlier (\figref{fig:timespan})
-Joseph Priestley was the first to develop the idea of using a graphic representation to show
-the lifespan of famous men. His ``charts of biography'' did this in a particularly evocative
-form, showing each person by a line segment identified by name, and grouped into
-occupational categories.
+Several features of this plot deserve comment, and also invite further inquiry: Most notable is that, by and large, milestones authors generally lived to a ripe old age -- the median lifespan is 73.0, but the density plot peaks at around 79. This contrasts with a detailed study on famous people between 2400 BC to 1880 AD by David de la Croix and Omar Licandro (\url{http://www.fcs.edu.uy/archivos/BCU_clebrities.pdf}).  In their research, it was found that the typical lifespan fluctuated around a mean of 61 years for four millennia, and only gradually reached 69 toward the end of their sample. Such a discrepancy between the two studies might warrant further investigation; for instance, by classifying the individuals into occupational, locational, or otherwise more delineated groups, and looking for trends.
 
-However, such ``timespan'' charts don't provide any answers to this question.  With the
-author table, it is a simple matter to calculate lifespan, and give a direct answer
-with the help of software.  \figref{fig:lifespan} shows one display of this information,
-using a combined density plot and rug plot, as we used in \figref{fig:mileyears4}.
+Another interesting feature that becomes apparent in this graphic is the noticeable bump in the distribution around 45 years. This occurrence calls for some attempt at further explanation. We don't pursue this here, but again note that such graphs often suggest further analyses (breakdowns by region or time period), or cry out for the collection of more data.
 
-Several features of this plot deserve comment, and also invite further inquiry:
-Most notable is that, by and large, milestones authors generally lived to a ripe old age--
-the median lifespan is 73.0, but the density plot peaks at around 79.
-This contrasts with a detailed study by
-David de la Croix and Omar Licandro (\url{http://www.fcs.edu.uy/archivos/BCU_clebrities.pdf})
-of famous people from 2400 BC to 1880 AD,
-fluctuating around a mean of 61 years for 4 millennia, and only reaching a mean of 69 years
-by the end of their sample. To take this analysis further would require more data, for example
-a classification of authors by occupational groups.
-
-Second, there is a noticeable bump in the distribution around 45 years. This
-occurrence also calls for some attempt at further explanation.
-We don't pursue this here, but again note that such graphs often suggest
-further analyses (breakdowns by region or time period)
-or cry out for the collection of more data.
-
-Finally, although \figref{fig:lifespan} is just a summary graph, we have labeled a few
-extreme observations on each end, which may relate to telling parts of the story of the
-history of data visualization.  Among these, Henry Moselely, who is known for the
-discovery of atomic number from a graphical display, died the youngest, as a consequence
-of serving in the British Army in World War I. But, we were surprised to see
-the noted and prolific French cartographer Phillippe Buache
-and the German physicist and astronomer Johann Tobias Mayer show up in positions
-2-3.  On the other end, we were delighted to see that Adriano Balbi,
-a Venetian geographer and early collaborator of Andr{\'e}-Michel Guerry
-\citep{BalbiGuerry:1829} had the longest lifespan,
-just exceeding the population geneticist, Sewall Wright, who invented
-path analysis and the path diagram around 1920.
+Finally, although \figref{fig:lifespan} is just a summary graph, we have labeled a few extreme observations on each end, which may relate to telling parts of the story of the history of data visualization.  Among these, Henry Moselely, who is known for the discovery of atomic number from a graphical display, died the youngest, as a consequence of serving in the British Army during World War I. But, we were surprised to see the noted and prolific French cartographer Phillippe Buache, and the German physicist and astronomer Johann Tobias Mayer, show up in positions two and three.  On the other end, we were delighted to see that Adriano Balbi, a Venetian geographer and early collaborator of Andr{\'e}-Michel Guerry \citep{BalbiGuerry:1829} had the longest lifespan, just exceeding the population geneticist, Sewall Wright, who invented path analysis and the path diagram around 1920.  By incorporating these details, the visualization is able to reveal narratives that otherwise would have been concealed.
 
 \subsection{Milestone authors: geography}\label{sec:geography}
-The Milestones Project web site provides an initial page showing an interactive timeline
-of the events events in this history as a visual overview (\figref{fig:mileyears4}).
-A long-term goal has been to
-provide other views of this history and other tools for searching and exploring the
-database.
+The Milestones Project web site provides an initial page showing an interactive timeline of the events events in this history as a visual overview (\figref{fig:mileyears4}). A long-term goal has been to provide other views of this history and other tools for searching and exploring the database. With recent technological developments, it become evident to us that one such method would be through the use of geographical data.
 
-The geography of these developments so far is only represented in the birth place
-and death place information we recorded in the author table.
-For example, we know that Minard was born in Dijon, and died in Bordeaux, but
-all of his work was done in Paris while he worked at the
-{\'E}cole Nationale des Ponts et Chauss{\'e}es.
-
-Nevertheless, a geographic view of the available information is potentially useful.
-In this regard, we used the Google geocoding tools to provide latitude and
-longitude for the place names listed in the author table.  Using this and the
-R package googleVis \citep{googleVis} we easily created the interactive map shown
-in \figref{fig:authormap}.
-
-Like other Google maps, this can be panned and zoomed using mouse controls.
-The place markers display tool tips when hovered and, when clicked, link to
-a search page showing milestone items related to that author.
-This tool seems sufficiently useful that we are adding it as another visual
-overview page to the milestones site.
-
+So far, the primary geographic information we have encoded in the database refers to the birth and death place of the milestone authors. This is an imperfect representation, as these locations may not accurately represent the author's primary residence.  For instance, Charles Joseph Minard was born in Dijon, and died in Bordeaux, but all of his work was done in Paris while he worked at the {\'E}cole Nationale des Ponts et Chauss{\'e}es. Nevertheless, a geographic view of the available information is potentially useful. In this regard, we used the Google geocoding tools to provide latitude and longitude for the locations listed in the author table.  Using this and the R package googleVis \citep{googleVis}, we created the interactive map shown in \figref{fig:authormap}.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/authormap}
-  \caption{Birth places of 188 milestones authors, shown on an interactive Google map, zoomed to show locations
-  in part of Europe centered on France. Each geographic marker is linked to a query on
-  the \texttt{datavis.ca} web site listing the contributions by that author.
-  }
+  \caption{Birth places of 188 milestone authors, shown on an interactive Google map, centred on France. Each geographic marker is linked to an author query on the \texttt{datavis.ca} web site that lists the contributions by that individual.}
   \label{fig:authormap}
 \end{figure}
 
+Like other instances of Google Maps, this graphic can be panned and zoomed using mouse controls. The place markers display tool tips when hovered over and, when clicked, link to a search page that details all of the Milestone items that are related to that author. This interesting visualization will soon be revealed on the Milestones Project website, with future work planned to incorporate other types of data in addition to the birth and death locations.
+
 \subsection{Milestones: themes and trends}\label{sec:themes}
-The milestones database records various text fields for each event in this history:
-a brief item tag, a full description of the event, relevant keywords, as well as categorical
-codes for the content (Subject) and form  (Aspect) of the milestone item.
-Treating this information as ``data'' allows us and others to study themes and trends
-in these developments.  Modern methods of text mining and data visualization 
-can perhaps provide insights into this history not available through other means.
+The records in the Milestones Project database also feature various text fields for each logged event. These include a brief item tag, a full description of the event, and relevant keywords, as well as categorical codes for the content (Subject), and form  (Aspect) of the item. Treating this information as ``data'' allows us and others to study themes and trends in these developments.  Modern methods of text mining and data visualization can provide insights into this history not available through other means.
+
+As one simple illustration of this approach, \figref{fig:milecats4} shows two mosaic displays%
+\footnote{Mosaic displays show the frequencies in cells of a cross-classified table by the area of each tile.  The tiles are shaded according to departure from a null
+model of no-association, using blue for cells with frequencies substantially greater than chance, and red for cells with frequencies that are lower than expected.}
+that explore the relationships among Epoch, Subject, and Aspect. The left panel shows changes in the distributions of milestone events by Subject over time.  It can readily be seen that while most of the milestone innovations up to the end of the \Cent{18} were about the physical world (astronomy, geodetic measurement, weather, etc.), this trend changed in the \Cent{19}, where there was a large shift toward problems that related to human populations (e.g., pertaining to mortality, births, disease, crime). Beginning in the early 1900s, the pattern changes again, with advances in mathematics and statistics becoming the dominating force.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/milecats4}
-  \caption{Mosaic displays for milestones items, classified by Epoch, Subject and Aspect.
-  Left: mosaic for the marginal table showing differences in Subject across Epochs;
-  Right: mosaic for the marginal table showing differences in Subject across Aspect.
-  Numbers in the tiles give the number of milestones items.
-  }
+  \caption{Mosaic displays for milestone items, classified by Epoch, Subject and Aspect. Left: mosaic for the marginal table showing differences in Subject across Epochs; Right: mosaic for the marginal table showing differences in Subject across Aspect. Numbers in the tiles give the number of milestone items.}
   \label{fig:milecats4}
 \end{figure}
 
-As one simple illustration of this approach, \figref{fig:milecats4} shows two mosaic displays%
-\footnote{Mosaic displays show the frequencies in cells of a cross-classified table
-by the area of each tile.  The tiles are shaded according to departure from a null
-model of no-association, using blue for cells with frequencies substantially greater
-than chance and red for cells with much lower frequencies than expected.
-}
-exploring the relationships
-among Epoch, Subject and Aspect.
+The right panel shows the association between Subject and Aspect, pooled over Epoch. As is not surprising, maps and other cartographical representations were most often used to show data of the physical world, while graphs and diagrams were most often associated with mathematical and statistical subjects.
 
-The left panel shows changes in the distributions of milestone events by Subject
-over time.  It can readily be seen that while most of the milestone innovations
-up to the end of the \Cent{18} had were about the 
-physical world (astronomy, geodetic measurement, weather, etc.)
-in the \Cent{19} there is a large shift to problems related to human populations
-(mortality, births, disease, crime).
-Beginning in the early 1900s, the pattern begins to shift toward advances in
-mathematics and statistics.
-
-The right panel shows the association between Subject and Aspect, pooled over Epoch.
-As is not surprising, maps and other cartographical representations were most often
-used to show data of the physical world, while graphs and diagrams were most often 
-associated with mathematical and statistical subjects.
-
-Other statistical graphs and analyses could be used to explore these and other
-relationships
-in more detail. The key to this is of course data--- in this case reflected in the
-coding of milestones items in the database.
-
-
+Other statistical graphs and analyses could be used to explore these and other relationships in more detail. The key to this is of course the existence and availability of data -- in this case reflected by the coding of graphical milestones in our database.
 
 \section{Conclusion and Future Directions}
-The Milestones Project began as a simple attempt to collect a comprehensive history of innovations
-and developments in data visualization in a single, ``one-stop-shopping'' location.
-Like Topsy, it ``just grew'' over time, with images, historical papers and references,
-suggestions and other contributions provided
-by friends and collaborators, most notably the members of
-\emph{Les Chevaliers des Albums de Statistique Graphique}.
+The Milestones Project began as a simple attempt to collect a comprehensive history of innovations and developments in data visualization in a single, ``one-stop-shopping'' location. Like Topsy, it ``just grew'' over time, with images, historical papers and references, suggestions, and other contributions graciously provided by friends and collaborators, most notably from the members of \emph{Les Chevaliers des Albums de Statistique Graphique}.
 
-In this chapter we describe the second iteration of this project, designed to make this history
-more accessible for browsing and searching, and also to begin to make the database more amenable
-to additions, edits, and extensions among collaborators.
-
-...
+In this chapter, our primary goal was to introduce the second and latest iteration of this project.  The redesign was undertaken to make this history more accessible for browsing and searching, and to attempt to make the database more amenable to additions, edits, and extensions among collaborators.  However, we find that the most exciting aspect of the new structure is its flexibility in terms of data retrieval, and our newfound ability to use and manipulate the data for graphic-based statistical historiography.
 
 \bibliography{graphics,timeref,Rpackages}
 %\bibliography{FriendlySigal2012}        % after being processed bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc -x FriendlySigal2012.aux -o FriendlySigal2012.bib
