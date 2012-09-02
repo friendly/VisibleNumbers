@@ -1,13 +1,11 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: FriendlySigal2012.aux
 The style file: abbrvnat-apa-nourl.bst
-Database file #1: graphics.bib
-Database file #2: timeref.bib
-Database file #3: Rpackages.bib
+Database file #1: FriendlySigal2012.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 51 entries,
             3054 wiz_defined-function locations,
-            1056 strings with 15135 characters,
+            983 strings with 13820 characters,
 and the built_in function-call counts, 24912 in all, are:
 = -- 2075
 > -- 694

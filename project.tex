@@ -7,12 +7,16 @@ An early overview of the content and aims of the Milestones Project appeared in 
 The initial step in portraying the history of data visualization was to create a simple chronological listing of milestone items with capsule descriptions, bibliographic references, markers for date, person, place, and links to portraits, images, related sources and more detailed commentaries. The initial database contained the 105 developments listed by \citet{BenigerRobyn:1978}, and incorporated additional records from \citet{Hankins:1999}, \citet{Tufte:1983,Tufte:1990,Tufte:1997}, \citet{Heiser:2000}, among others.
 
 This began as single \LaTeX\ file (with markup tags for all relevant bits of information), used to produce a hyper-linked PDF document.  A variety of software tools (perl scripts, Unix utilities) allowed us to turn this single source \emph{directly} into the web version originally shown at
-\url{http://www.math.yorku.ca/SCS/Gallery/milestone}.  Other custom software tools allowed us to add new milestones items from text files using a template of tags (DATE:, AUTHOR:, WHAT:, REF:, IMG:, etc.) and extract the information about milestones items, authors, images, etc. in a variety of forms (CSV, XML, JSON) that could be used as input for analyses and graphic displays.  For example, \figref{fig:mileyears4} was produced in SAS software using a unix command pipe like \begin{verbatim} itemdb -o milestones.csv < milestones.tex | sas -i milestones.csv mileyears.sas \end{verbatim}
+\url{http://www.math.yorku.ca/SCS/Gallery/milestone}.  Other custom software tools allowed us to add new milestones items from text files using a template of tags (DATE:, AUTHOR:, WHAT:, REF:, IMG:, etc.) and extract the information about milestones items, authors, images, etc. in a variety of forms (CSV, XML, JSON) that could be used as input for analyses and graphic displays.  For example, \figref{fig:mileyears4} was produced in SAS software using a unix command pipe like 
+\begin{verbatim} 
+itemdb -o milestones.csv < milestones.tex | sas -i milestones.csv mileyears.sas 
+\end{verbatim}
 
 It soon became apparent that such a text-based representation was inadequate. Updating the milestones data required that the single \LaTeX\ file be shared among several collaborators; milestone assets, such as images, web links and references, were not easily accessible by others, which made collaboration cumbersome. Further, each update to the web site required an inefficient number of steps of verification, re-building, and synchronization with the server.
 
 Around 2005, we began to convert the flat file into a relational database and completely redesign the Milestones web site. Specifically, we wanted to facilitate contributions by any number of trusted collaborators via an easy-to-use web administration area, and allow for the dissemination of milestones data via an easy-to-browse public user interface.
 
+\TODO{MF: The language here needs a bit of smoothing, going from a database-centric towards the target audience.}
 Migrating the data to this format provided some challenges. First, the existing milestones data needed to be normalized and redundancy minimized. 
 \begin{comment}
 Even I am not quite sure what this first sentence means!

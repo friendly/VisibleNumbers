@@ -23,13 +23,14 @@ LATEXFLAGS = -interaction=nonstopmode
 ##
 # texdepend, v0.96 (Michael Friendly (friendly@yorku.ca))
 # commandline: texdepend FriendlySigal2012
-INCLUDES = intro.tex project.tex
+INCLUDES = intro.tex project.tex vistime.tex
 #
 PACKAGES = article.cls geometry.sty natbib.sty color.sty mdwlist.sty graphicx.sty url.sty epigraph.sty comment.sty
 #
 FIGS = fig/langren-google-overlay.jpg fig/mileyears4.png fig/datavis-timeline2.png fig/datavis-db-schema-reduced.pdf fig/lifespan.pdf fig/authormap.png
 #
-BIB_FILES = ./references.bib
+#BIB_FILES = ./references.bib
+BIB_FILES = ${MAIN}.bib
 #
 STYLES = /usr/share/texmf-texlive/tex/latex/geometry/geometry.sty /usr/share/texmf-texlive/tex/latex/graphics/keyval.sty /usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty /usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty /usr/share/texmf-texlive/tex/latex/natbib/natbib.sty /usr/share/texmf-texlive/tex/latex/graphics/color.sty /usr/share/texmf-texlive/tex/latex/mdwtools/mdwlist.sty /usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty /usr/share/texmf-texlive/tex/latex/graphics/graphics.sty /usr/share/texmf-texlive/tex/latex/graphics/trig.sty /usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty /home/friendly/texmf/tex/latex/misc/epigraph.sty /usr/share/texmf-texlive/tex/latex/comment/comment.sty
 #
@@ -66,7 +67,10 @@ $(MAIN).ps: $(MAIN).dvi
 #references.bib : $(MAIN).aux
 #	aux2bib $(MAIN)
 # Switch to using bibtool
-$(MAIN).bib: 
+${MAIN}.bib: $(MAIN).tex $(INCLUDES)
+	$(BIBTOOL) -x $(MAIN).aux -o $(MAIN).bib
+	
+bib: $(MAIN).tex $(INCLUDES)
 	$(BIBTOOL) -x $(MAIN).aux -o $(MAIN).bib
 	
 ## Hand edited FIGLIST because of multiple images/fig
@@ -83,8 +87,12 @@ zip: ${ALLFILES}
 tar: ${ALLFILES}
 	$(TAR) cvhf - $(ALLFILES) | $(GZIP) > $(TGZFILE) 
 
-supp: ${SUPPFILES}
-	$(ZIP) -r -u  $(ZIPSUPP) $(SUPPFILES)
+#supp: ${SUPPFILES}
+#	$(ZIP) -r -u  $(ZIPSUPP) $(SUPPFILES)
 
 git-push: ${ALLFILES}
 	git push -u origin master
+
+git-pull: ${ALLFILES}
+	git pull origin master
+	
