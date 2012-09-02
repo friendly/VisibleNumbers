@@ -90,9 +90,9 @@ tar: ${ALLFILES}
 #supp: ${SUPPFILES}
 #	$(ZIP) -r -u  $(ZIPSUPP) $(SUPPFILES)
 
-git-push: ${ALLFILES}
+git-push: 
 	git push -u origin master
 
-git-pull: ${ALLFILES}
+git-pull: 
 	git pull origin master
 	
