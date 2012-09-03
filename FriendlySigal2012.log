@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  3 SEP 2012 10:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  3 SEP 2012 10:21
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -211,45 +211,44 @@ File: fig/Adams1881-5.pdf Graphic file (type pdf)
 <fig/milecatline.pdf, id=165, 568.1225pt x 285.065pt>
 File: fig/milecatline.pdf Graphic file (type pdf)
 
-<use fig/milecatline.pdf>) [9 <./fig/Adams1881-5.pdf>] [10 <./fig/milecatline.p
-df>] <fig/lifespan3.pdf, id=184, 668.83176pt x 255.28674pt>
+<use fig/milecatline.pdf>) (./historiography.tex [9 <./fig/Adams1881-5.pdf>]
+[10 <./fig/milecatline.pdf>]
+<fig/lifespan3.pdf, id=184, 668.83176pt x 255.28674pt>
 File: fig/lifespan3.pdf Graphic file (type pdf)
-
-<use fig/lifespan3.pdf> [11]
-<fig/authormap.png, id=190, 751.30687pt x 377.91188pt>
+ <use fig/lifespan3.pdf>
+[11] <fig/authormap.png, id=190, 751.30687pt x 377.91188pt>
 File: fig/authormap.png Graphic file (type png)
- <use fig/authormap.png>
-[12 <./fig/lifespan3.pdf>]
+
+<use fig/authormap.png> [12 <./fig/lifespan3.pdf>]
 <fig/milecats4.pdf, id=214, 384.43625pt x 183.68625pt>
 File: fig/milecats4.pdf Graphic file (type pdf)
- <use fig/milecats4.pdf>
-[13 <./fig/authormap.png (PNG copy)>] (./FriendlySigal2012.bbl [14 <./fig/milec
-ats4.pdf>] [15] [16]) [17] (./FriendlySigal2012.aux) ) 
+ <use fig/milecats4.pdf>) [13 <./fig/authormap.png (PNG copy)>] (./FriendlySiga
+l2012.bbl [14 <./fig/milecats4.pdf>] [15] [16]) [17] (./FriendlySigal2012.aux) 
+) 
 Here is how much of TeX's memory you used:
- 2105 strings out of 495061
- 29252 string characters out of 1182567
+ 2108 strings out of 495061
+ 29304 string characters out of 1182567
  84645 words of memory out of 3000000
  5264 multiletter control sequences out of 15000+50000
  11541 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,1054b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share
-/texmf/fonts/type1/public/tex-gyre/qplr.pfb
+ 26i,8n,32p,1084b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/tex
+-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 -gyre/qplr.pfb): glyph `f_f_i' undefined
@@ -258,7 +257,7 @@ pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 -gyre/qplr.pfb): glyph `f_i' undefined
 >
-Output written on FriendlySigal2012.pdf (17 pages, 2963316 bytes).
+Output written on FriendlySigal2012.pdf (17 pages, 2963311 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
