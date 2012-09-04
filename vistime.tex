@@ -8,7 +8,9 @@
 \end{itemize*}
 \end{comment}
 \epigraph{What does history look like?  How do you draw time?}{\citet[p. 10]{RosenbergGrafton:2010}}
-The questions in this quotation introduce an important topic in the history of data visualization:  how can such a history be visualized? What methods might be invoked to detail the richness of its past?\footnote{Another recent book, \emph{Visualizing Time} \citep{Wills:2012}, discusses a range of  modern graphical methods for visualizing time-based data.} Time provides an obvious dimension, but what else could be included in a static display that might reveal a story previously hidden? What kinds of dynamic or interactive displays might fascinate and intrigue viewers? 
+The questions in this quotation introduce an important topic in the history of data visualization:  how can such a history be visualized? What methods might be called upon to detail the richness of its past?%
+\footnote{Another recent book, \emph{Visualizing Time} \citep{Wills:2012}, discusses a range of  modern graphical methods for visualizing time-based data.} 
+Time provides an obvious dimension, but what else could be included in a static display that might reveal a story previously hidden? What kinds of dynamic or interactive displays might fascinate and intrigue viewers? 
 
 An annotated visual gallery of some timeline designs and visual histories can be found in our Data Visualization Gallery at \url{datavis.ca/gallery/timelines.php}. The topics covered include early visual histories, encyclopedic charts, special purpose charts, correlated histories showing events in one domain in the context of events in other areas, non-linear scales for time and space, as well as dynamic, interactive timelines.  Here we present a few inventive selections from this scholarship.
 
@@ -22,7 +24,7 @@ Priestly's timeline charts can be seen on our Data Visualization Gallery, and we
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=.95\textwidth,clip]{fig/timespan}
-  \caption{A modern re-design of Priestley's 1765 \emph{Chart of Biography}, using information on authors in the Milestones database born in France or the United Kindgom. Authors are sorted within country by year of birth and labeled alternately at birth and death years, allowing better lookup and visual comparison.}
+  \caption{A modern re-design of Priestley's 1765 \emph{Chart of Biography}, using information on authors in the Milestones database born in France or the United Kingdom. Authors are sorted within country by year of birth and labeled alternately at birth and death years, allowing better lookup and visual comparison.}
   \label{fig:timespan}
 \end{figure}
 
@@ -34,21 +36,26 @@ In our version, authors are sorted by birth year within each country and the nam
 %\TODO{Revise figure to include a blowup of a section for greater legibility}
 In addition to unrivalled thematic maps and statistical diagrams, the Golden Age of statistical graphics also gave rise to a variety of novel attempts to visualize history in a comprehensive manner, combining parallel, intertwined time-flows, text, illustrations, maps, and other visual forms. Among the most impressive is the series of Synchronological Charts of Universal History produced by Sebastian Adams between 1871--1885. The 1881 version is 23 feet long and captures 5,885 years of history, from 4004 B.C. to 1881 A.D. \citet[p. 172]{RosenbergGrafton:2010} call it ``nineteenth-century America's surpassing achievement in complexity and synthetic power.'' 
 
-\figref{fig:Adams1881} shows just a small portion of the graphic, but the entire chart can be viewed at \url{http://www.davidrumsey.com/blog/2012/3/28/timeline-maps}.  Adams used a linear scale for time, and so it is understandable why it took 23 linear feet to include all of recorded history.
+\figref{fig:Adams1881} shows the entire chart at the top (note the increasing visual density towards the right) and a small portion below;
+The entire chart can be viewed in high-resolution at \url{http://www.davidrumsey.com/blog/2012/3/28/timeline-maps}.  Adams used a linear scale for time, and so it is understandable why it took 23 linear feet to include all of recorded history.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/Adams1881-5}
-  \caption{Top: The entirity of Sebastian Adams' \emph{Synchronological Chart of Universal History}, 1881. Bottom: An excerpt detailing the 600--1100AD period. Horizontal bands trace developments in different countries, with detailed text describing significant events, and which break up or merge according to political factors.}
+  \caption{Top: The entirety of Sebastian Adams' \emph{Synchronological Chart of Universal History}, 1881. Bottom: An excerpt detailing the 600--1100AD period. Horizontal bands trace developments in different countries, with detailed text describing significant events, and which break up or merge according to political factors.}
   \label{fig:Adams1881}
 \end{figure}
 
 \subsection{Categorization and non-linear scales}
-Linear time scales have the advantage that they provide uniform resolution and detail across the entire time span, but events in time, or our interest in them are rarely uniformly distributed. As exemplified by the Milestones Project, most visual histories are rather sparse at their beginning and very crowded at their end. Utilizing non-linear scales can allow resolution to vary smoothly across the range, providing greater detail in regions of interest, which are most often the recent past.
+Linear time scales have the advantage that they provide uniform resolution and detail across the entire time span, but events in time, or our interest in them are rarely uniformly distributed. As exemplified by the Milestones Project, most visual histories are rather sparse at their beginning and very crowded at their end. Utilizing non-linear scales can allow resolution to vary smoothly across the range, providing greater detail in regions of interest, which are most often the recent past.%
+\footnote{
+Of course, interactive graphics offer the possibity to vary resolution dynamically, by moving a ``lens'' across the display, as in
+a hyperbolic viewer.
+}
 
 \figref{fig:milecatline} is a proof-of-concept sketch for something that a graphic artist could use as a starting point for a chart of the history of data visualization. It uses the events from the Milestones Project, categorized by two correlated factors: Subject area, in which the content has been categorized as dealing with human populations, physical properties of the world, or mathematics and statistics; and, the milestone's aspect or form, which has been categorized as dealing with cartography, graphs and diagrams, or technology. 
 
-To provide greater resolution for more recent events, we have used a reverse square-root scale going backward from the year 2000. Specifically, `Year' on the horizontal time axis is actually plotted according to the formula $\textrm{Year}^\star = 2* (25 - \sqrt{(2000 - \textrm{Year})})$, giving the more pleasing result that the modern period 1800--2000 occupies about 60\% of the scale, despite only comprising 40\% of the range.  This is subtly observable by the naive viewer through the inspection of the space between the tick marks on the X-axis.
+To provide greater resolution for more recent events, we have used a reverse square-root scale going backward from the year 2000. Specifically, `Year' on the horizontal time axis is actually plotted according to the formula $\textrm{Year}^\star = 2* (25 - \sqrt{(2000 - \textrm{Year})})$, giving the more pleasing result that the modern period 1800--2000 occupies about 60\% of the scale, despite only comprising 40\% of the range.  This is conveyed visually by the spacing between tick marks on the X-axis.
 
 \begin{figure}[!htb]
   \centering

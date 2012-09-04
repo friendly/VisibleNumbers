@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  3 SEP 2012 11:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  4 SEP 2012 09:25
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -258,7 +258,7 @@ pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 -gyre/qplr.pfb): glyph `f_i' undefined
 >
-Output written on FriendlySigal2012.pdf (17 pages, 2964677 bytes).
+Output written on FriendlySigal2012.pdf (17 pages, 2965448 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
