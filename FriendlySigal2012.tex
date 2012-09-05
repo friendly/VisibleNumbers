@@ -43,7 +43,12 @@
 \begin{document}
 
 \title{The Milestones Project: \\ A Database for the History of Data Visualization}
-\author{Michael Friendly \and Matthew Sigal \and Derek Harnanansingh}
+\author{Michael Friendly%
+\thanks{This work was supported by Grant OGP0138748 from the National Sciences and Engineering Research Council of Canada to Michael Friendly.
+  We are grateful to Dan Denis, Stephen Stigler, Ben Shneiderman ... for constructive comments on this chapter.
+  }
+ \and Matthew Sigal 
+ \and Derek Harnanansingh}
 \date{\today}
 
 \maketitle
@@ -110,7 +115,8 @@ select milestone events based on some or all of these criteria, providing a way 
 Finally, we would like to make the milestones database more publicly accessible for use by others on the history of data
 visualization.  For the examples we have shown here, we connect to the milestones database directly via MySQL or ODBC
 interfaces to SAS and R, but this presents security risks.  Happily, the Exhibit framework also provides methods for
-data export from various views, using JSON or CSV formats.
+data export from various views, using JSON or CSV formats. In addition, we contemplate adding facilities for users in
+the data visualization community to add comments, notes, references and links to milestones items.
 These extensions will comprise the Milestones Project 3.0.
 
 %\bibliography{graphics,timeref,Rpackages}

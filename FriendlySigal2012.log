@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  4 SEP 2012 09:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  5 SEP 2012 10:42
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -166,22 +166,22 @@ driver: pdftex
 \everyMPtoPDFconversion=\toks17
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 54.
  (./intro.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<fig/langren-google-overlay2.pdf, id=14, 306.54524pt x 76.60649pt>
+<fig/langren-google-overlay2.pdf, id=16, 306.54524pt x 76.60649pt>
 File: fig/langren-google-overlay2.pdf Graphic file (type pdf)
 
 <use fig/langren-google-overlay2.pdf> [2 <./fig/langren-google-overlay2.pdf>]
@@ -189,38 +189,38 @@ File: fig/langren-google-overlay2.pdf Graphic file (type pdf)
 File: fig/mileyears4.png Graphic file (type png)
 
 <use fig/mileyears4.png>) (./project.tex [3] [4 <./fig/mileyears4.png>]
-<fig/datavis-schema-3.pdf, id=39, 630.355pt x 374.39874pt>
+<fig/datavis-schema-3.pdf, id=40, 630.355pt x 374.39874pt>
 File: fig/datavis-schema-3.pdf Graphic file (type pdf)
 
 <use fig/datavis-schema-3.pdf> [5 <./fig/datavis-schema-3.pdf>]
-<fig/datavis-timeline2.png, id=112, 823.57687pt x 367.3725pt>
+<fig/datavis-timeline2.png, id=113, 823.57687pt x 367.3725pt>
 File: fig/datavis-timeline2.png Graphic file (type png)
 
 <use fig/datavis-timeline2.png>) (./vistime.tex [6 <./fig/datavis-timeline2.png
- (PNG copy)>] <fig/timespan.pdf, id=118, 768.203pt x 711.99399pt>
+ (PNG copy)>] <fig/timespan.pdf, id=119, 768.203pt x 711.99399pt>
 File: fig/timespan.pdf Graphic file (type pdf)
 
 <use fig/timespan.pdf> [7]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/Adams1881-5.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.4> allowed
-<fig/Adams1881-5.pdf, id=126, 3264.195pt x 1678.27pt>
+<fig/Adams1881-5.pdf, id=127, 3264.195pt x 1678.27pt>
 File: fig/Adams1881-5.pdf Graphic file (type pdf)
 
 <use fig/Adams1881-5.pdf> [8 <./fig/timespan.pdf>]
-<fig/milecatline.pdf, id=165, 568.1225pt x 285.065pt>
+<fig/milecatline.pdf, id=166, 568.1225pt x 285.065pt>
 File: fig/milecatline.pdf Graphic file (type pdf)
 
 <use fig/milecatline.pdf>) (./historiography.tex [9 <./fig/Adams1881-5.pdf>]
 [10 <./fig/milecatline.pdf>]
-<fig/lifespan3.pdf, id=184, 668.83176pt x 255.28674pt>
+<fig/lifespan3.pdf, id=185, 668.83176pt x 255.28674pt>
 File: fig/lifespan3.pdf Graphic file (type pdf)
  <use fig/lifespan3.pdf>
-[11] <fig/authormap.png, id=190, 751.30687pt x 377.91188pt>
+[11] <fig/authormap.png, id=191, 751.30687pt x 377.91188pt>
 File: fig/authormap.png Graphic file (type png)
 
 <use fig/authormap.png> [12 <./fig/lifespan3.pdf>]
-<fig/milecats4.pdf, id=214, 384.43625pt x 183.68625pt>
+<fig/milecats4.pdf, id=215, 384.43625pt x 183.68625pt>
 File: fig/milecats4.pdf Graphic file (type pdf)
  <use fig/milecats4.pdf>) [13 <./fig/authormap.png (PNG copy)>] [14 <./fig/mile
 cats4.pdf>]
@@ -232,7 +232,7 @@ Here is how much of TeX's memory you used:
  5264 multiletter control sequences out of 15000+50000
  11541 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 26i,8n,32p,1084b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,11n,32p,1084b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share
 /texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/t
@@ -245,11 +245,12 @@ e/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.p
-fb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/sha
+re/texmf/fonts/type1/public/tex-gyre/qplr.pfb
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 -gyre/qplr.pfb): glyph `f_f_i' undefined
@@ -258,9 +259,9 @@ pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texmf/fonts/type1/public/tex
 -gyre/qplr.pfb): glyph `f_i' undefined
 >
-Output written on FriendlySigal2012.pdf (17 pages, 2965448 bytes).
+Output written on FriendlySigal2012.pdf (17 pages, 2973811 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
+ 312 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
