@@ -45,7 +45,15 @@
 \title{The Milestones Project: \\ A Database for the History of Data Visualization}
 \author{Michael Friendly%
 \thanks{This work was supported by Grant OGP0138748 from the National Sciences and Engineering Research Council of Canada to Michael Friendly.
-  We are grateful to Dan Denis, Stephen Stigler, Ben Shneiderman ... for constructive comments on this chapter.
+  We are grateful to 
+Dan Denis, 
+Antoine de Falguerolles,
+Stephen Stigler, 
+Ben Shneiderman and
+Howard Wainer
+for constructive comments on this chapter.
+%, and to other
+%\emph{Chevaliers des Albums de Statistique Graphique}
   }
  \and Matthew Sigal 
  \and Derek Harnanansingh}
@@ -54,13 +62,14 @@
 \maketitle
 
 \begin{abstract}
-%\TODO{Revise, incorporating some/all of Matt's changes, presently just comments in the .tex file; in general, abstract %should be shortened.}
 \begin{comment}
-Re-reading the abstract, I think it could be rephrased slightly to update the language with more modern historical scholarship (most of the changes are in paragraph 1).  Here is what I propose:
+Re-reading the abstract, I think it could be rephrased slightly to update the language with more modern historical scholarship (most of the changes are in paragraph 1).
+Here is what I propose:
 
 Methods of data visualization have evolved substantially over their relatively brief history.
 Landmarks in this story were the first thematic maps in the 1600s, the invention of the bar chart and the line graph in the early 1800s,
-and the dynamic and interactive graphics of today.  While these developments have been previously detailed in various micro-histories,
+and the dynamic and interactive graphics of today.
+While these developments have been previously detailed in various micro-histories,
 they were aimed at a privileged and academic audience, and a publicly accessible and free space to house a macro-history in its totality did not exist.
 
 The purpose of this chapter is threefold:
@@ -78,11 +87,8 @@ and the dynamic and interactive graphics of today.
 While these developments have been previously detailed in various written micro-histories, 
 there has never been an attempt to collect a complete, macro-history in a single place for study, search or query, and even data analysis or graphics based on this history.
 
-\begin{comment}
-Approaches to modern data visualization have evolved substantially from the first thematic maps of the 1600s and the first bar charts and line graphs in the early 1800s to the dynamic and interactive graphics of today. Over the course of this history, there have been many detailed written studies, both comprehensive and on particular aspects. But there has never been an attempt to collect this history in a single place for display, search or query and even data analysis or graphics based on this history.
-\end{comment}
-
-The purpose of this chapter is threefold: first, to introduce the reader to our solution: an online resource called the Milestones Project. This web site details  important events in the history of data visualization, and enables users to interactively travel through time to see and explore the context that surrounded their developments. 
+The purpose of this chapter is threefold: first, to introduce the reader to our solution: an online resource called the Milestones Project. 
+This web site details  important events in the history of data visualization, and enables users to interactively travel through time to see and explore the context that surrounded their developments. 
 Secondly, we present some striking visual examples that deal with conveying aspects of history over time, drawn from this resource.
 
 Finally, the Milestones database will be used to showcase how such a resource can serve as ``data'' for \emph{statistical historiography}, which entails the use of statistical and graphical methods for the analysis and understanding of historical innovations, developments, and trends.
@@ -94,31 +100,40 @@ Finally, the Milestones database will be used to showcase how such a resource ca
 \input{historiography}  % \S4
 
 \section{Conclusion and Future Directions}
-The Milestones Project began as a simple attempt to collect a comprehensive history of innovations and developments in data visualization in a single, ``one-stop shopping'' location. Like Topsy, it ``just grew'' over time, with images, historical papers and references, suggestions, and other contributions graciously provided by friends and collaborators, most notably from the members of \emph{Les Chevaliers des Albums de Statistique Graphique}.
+The Milestones Project began as a simple attempt to collect a comprehensive history of innovations and developments in data visualization in a single, ``one-stop shopping'' location.
+Like Topsy, it ``just grew'' over time, with images, historical papers and references, suggestions, and other contributions graciously provided by friends and collaborators, most notably from the members of \emph{Les Chevaliers des Albums de Statistique Graphique}.
 
-In this chapter, our primary goal was to introduce the second and latest iteration of this project.  The redesign was undertaken to make this history more accessible for browsing and searching, and to attempt to make the database more amenable to additions, edits, and extensions among collaborators.  However, we find that the most exciting aspect of the new structure is its flexibility in terms of data retrieval, 
+In this chapter, our primary goal was to introduce the second and latest iteration of this project.
+The redesign was undertaken to make this history more accessible for browsing and searching, and to attempt to make the database more amenable to additions, edits, and extensions among collaborators.  
+However, we find that the most exciting aspect of the new structure is its flexibility in terms of data retrieval, 
 and our newfound ability to use and manipulate the data for graphic-based statistical historiography.
 
 One goal for the future, as we suggested earlier (\secref{sec:geography}), is to extend the user interface to provide multiple
 views and advanced text search and filtering capabilities.
 One convenient path for this development is provided by the SIMILE Exhibit framework
-(\url{www.simile-widgets.org/exhibit3/}).  This provides web software libraries (Ajax, javascript, css) for
+(\url{www.simile-widgets.org/exhibit3/}).
+This provides web software libraries (Ajax, javascript, css) for
 timelines, interactive maps, tabular displays, image ``tiles'' and other visualizations.
 Various views can be composed for browsing as tabbed, alternatives or as faceted displays, showing, for example an interactive timeline and
 a map.
 
 Equally important, the Exhibit framework allows us to present some of the milestones tables to be used as filters for the items
-displayed in these views.  Tables for subject, aspect, keywords, location, epoch, etc. would allow the user to select
+displayed in these views.
+Tables for subject, aspect, keywords, location, epoch, etc. would allow the user to select
 select milestone events based on some or all of these criteria, providing a way to ask such questions as
 ``what milestones events between 1700-1900 involving social science occurred in Europe?'' 
 
 Finally, we would like to make the milestones database more publicly accessible for use by others on the history of data
-visualization.  For the examples we have shown here, we connect to the milestones database directly via MySQL or ODBC
-interfaces to SAS and R, but this presents security risks.  Happily, the Exhibit framework also provides methods for
-data export from various views, using JSON or CSV formats. In addition, we contemplate adding facilities for users in
+visualization.
+For the examples we have shown here, we connect to the milestones database directly via MySQL or ODBC
+interfaces to SAS and R, but this presents security risks.
+Happily, the Exhibit framework also provides methods for
+data export from various views, using JSON or CSV formats.
+In addition, we contemplate adding facilities for users in
 the data visualization community to add comments, notes, references and links to milestones items.
 These extensions will comprise the Milestones Project 3.0.
 
 %\bibliography{graphics,timeref,Rpackages}
-\bibliography{FriendlySigal2012}        % after being processed bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc -x FriendlySigal2012.aux -o FriendlySigal2012.bib
+% after being processed bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc -x FriendlySigal2012.aux -o FriendlySigal2012.bib
+\bibliography{FriendlySigal2012}        
 \end{document} 
