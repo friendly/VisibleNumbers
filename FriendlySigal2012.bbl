@@ -1,6 +1,6 @@
  \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\SortNoop}[1]{}
   \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\de}[1]{d'#1}
-\begin{thebibliography}{51}
+\begin{thebibliography}{52}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Balbi and Guerry(1829)}]{BalbiGuerry:1829}
@@ -223,6 +223,13 @@ Playfair, W. (1801).
 \newblock Re-published in Wainer, H. and Spence, I. (eds.), \emph{The
   Commercial and Political Atlas and Statistical Breviary}, 2005, CAmbridge,
   UK: Cambridge University Press, ISBN 0-521-85554-3.
+
+\bibitem[{Playfair(1821)}]{Playfair:1821}
+Playfair, W. (1821).
+\newblock Letter on our agricultural distresses, their causes and remedies;
+  accompanied with tables and copperplate charts shewing and comparing the
+  prices of wheat, bread and labour, from 1565 to 1821.
+\newblock \Loc{BL: 8275.c.64}.
 
 \bibitem[{Porter(1986)}]{Porter:1986}
 Porter, T.~M. (1986).
