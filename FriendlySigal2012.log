@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  29 NOV 2012 09:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  2 DEC 2012 16:37
 entering extended mode
  %&-line parsing enabled.
 **FriendlySigal2012.tex
@@ -228,25 +228,25 @@ File: fig/Playfair1821b.jpg Graphic file (type jpg)
 File: fig/wheat1.pdf Graphic file (type pdf)
 
 <use fig/wheat1.pdf>) [11 <./fig/Playfair1821b.jpg>] [12 <./fig/wheat1.pdf>]
-<fig/lifespan3.pdf, id=213, 668.83176pt x 255.28674pt>
+<fig/lifespan3.pdf, id=214, 668.83176pt x 255.28674pt>
 File: fig/lifespan3.pdf Graphic file (type pdf)
  <use fig/lifespan3.pdf>
 [13 <./fig/lifespan3.pdf>]
-<fig/authormap.png, id=243, 751.30687pt x 377.91188pt>
+<fig/authormap.png, id=244, 751.30687pt x 377.91188pt>
 File: fig/authormap.png Graphic file (type png)
  <use fig/authormap.png>
 [14 <./fig/authormap.png (PNG copy)>]
-<fig/milecats4.pdf, id=249, 384.43625pt x 183.68625pt>
+<fig/milecats4.pdf, id=250, 384.43625pt x 183.68625pt>
 File: fig/milecats4.pdf Graphic file (type pdf)
  <use fig/milecats4.pdf>) [15 <./fig/milecats4.pdf>] (./FriendlySigal2012.bbl [
 16] [17] [18]) [19]
 (./FriendlySigal2012.aux) ) 
 Here is how much of TeX's memory you used:
- 2130 strings out of 495061
- 29720 string characters out of 1182567
+ 2132 strings out of 495061
+ 29739 string characters out of 1182567
  84965 words of memory out of 3000000
- 5280 multiletter control sequences out of 15000+50000
- 11541 words of font info for 40 fonts, out of 3000000 for 9000
+ 5281 multiletter control sequences out of 15000+50000
+ 11708 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  30i,11n,32p,1084b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfont
@@ -264,12 +264,12 @@ texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive
 sfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/ty
-pe1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr
-.pfb>
-Output written on FriendlySigal2012.pdf (19 pages, 5887589 bytes).
+mf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/t
+ex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb>
+Output written on FriendlySigal2012.pdf (19 pages, 5897335 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
+ 349 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
