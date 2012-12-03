@@ -100,8 +100,8 @@ question more fundamental than that of the first visual representation of statis
 
      In Friendly et al. (2010) we argue that the 1-dimensional line graph shown in Figure 1 by Michael
 Florent van Langen (van Langren, 1644) should be accorded this honour.  The graph shows 12 estimates
-of  the  distance  in  longitude  between  Toledo  (located  at  lat/long  (+39.86   O N,  -4.03  O W))  and  Rome
-(located  at  (+41.89   O N,  +12.5  O W)).  The  figure,  which  has  been  re-scaled,  and  overlaid  on  a  modern
+of  the  distance  in  longitude  between  Toledo  (located  at  lat/long  (+39:86   O N,  -4:03  O W))  and  Rome
+(located  at  (+41:89   O N,  +12:5  O W)).  The  figure,  which  has  been  re-scaled,  and  overlaid  on  a  modern
 map of Europe, makes clear what van Langren wished to communicate:  that these estimates were all
 subject to large errors and to propose to King Phillip of Spain that only he had a sufficiently precise
 method  for  the  determination  of  longitude  for  navigation  at  sea.   By  also  including  markers  (stars)
@@ -159,7 +159,7 @@ In our initial web presentation of the Milestones Project, it proved convenient 
 of data visualization into epochs, each of which turned out to be describable by coherent themes.  As
 we illustrate later, one period turned out to be particularly noteworthy, both for the sheer number of
 contributions,  and for the beauty and elegance of their execution.  We call this period,  from roughly
-1850 to 1900 ( 10), the Golden Age of statistical graphics (Friendly, 2008b).
+1850 to 1900 (10), the Golden Age of statistical graphics (Friendly, 2008b).
 
      Figure  2  shows  the  time  distribution  of  the  260  significant  events  that  had  been  included  in  the
 Milestones Project database by 2007, demarcated by the labels we used for epochs.  The density estimate
@@ -212,7 +212,7 @@ that could be used as input for analyses and graphic displays.  For example, Fig
 SAS software by piping the output of a latex to csv translator:
 
 
-itemdb  -o  milestones.csv  <  milestones.tex  |  sas  -i  milestones.csv  mileyears.sas
+itemdb  -o  milestones.csv  <  milestones.tex  _  sas  -i  milestones.csv  mileyears.sas
 
 
      It  soon  became  apparent  that  such  a  text-based  representation  was  inadequate.   Updating  the
@@ -496,7 +496,7 @@ source for data, pictures, and stories related to statistical historiography, an
 reproduction.  This is the essence of the motto on the datavis.ca web site: Looking back, going forward.
    _________________________________________________________7
      Some examples are:  Charles Joseph Minard's famous depiction of Napoleon's March on Moscow (Friendly, 2002b),
-Francis Galton's detailed study of weather patterns in Europe (see: Friendly, 2008b), and Andr'e-Michel Guerry's (Guerry,
+Francis Galton's detailed study of weather patterns in Europe (see: Friendly, 2008b), and Andre-Michel Guerry's (Guerry,
 1864, Plate 17) semi-graphic table depicting the relations of occurrence of crimes to a wide variety of social and demographic
 factors (see: Friendly, 2007).
     8Playfair's data and this re-creation can be found in the R package HistData (Friendly, 2011) as example(Wheat).
@@ -577,7 +577,7 @@ these,  Henry  Moselely,  who  is  known  for  the  discovery  of  atomic  numbe
 died the youngest, as a consequence of serving in the British Army during World War I. But, we were
 surprised to see the noted and prolific French cartographer Phillippe Buache, and the German physicist
 and astronomer Johann Tobias Mayer, show up in positions two and three.  On the other end, we were
-delighted  to  see  that  Adriano  Balbi,  a  Venetian  geographer  and  early  collaborator  of  Andr'e-Michel
+delighted  to  see  that  Adriano  Balbi,  a  Venetian  geographer  and  early  collaborator  of  Andre-Michel
 Guerry  (Balbi  and  Guerry,  1829)  had  the  longest  lifespan,  just  exceeding  the  population  geneticist,
 Sewall Wright, who invented path analysis and the path diagram around 1920.  By incorporating these
 details, the visualization is able to reveal narratives that otherwise would have been concealed.
@@ -596,8 +596,8 @@ data.
      So far, the primary geographic information we have encoded in the database refers to the birth and
 death place of the milestone authors.  This is an imperfect representation, as these locations may not
 accurately represent the author's primary residence.  For instance, Charles Joseph Minard was born in
-Dijon, and died in Bordeaux, but all of his work was done in Paris while he worked at the 'Ecole Nationale
-des Ponts et Chauss'ees. Nevertheless, a geographic view of the available information is potentially useful.
+Dijon, and died in Bordeaux, but all of his work was done in Paris while he worked at the Ecole Nationale
+des Ponts et Chaussees. Nevertheless, a geographic view of the available information is potentially useful.
 In this regard, we used the Google geocoding tools to provide latitude and longitude for the locations
 listed in the author table.  Using this and the R package googleVis (Gesmann and de Castillo, 2011),
 we created the interactive map shown in Figure 11.  Each geographic marker featured on the image is
@@ -708,8 +708,8 @@ Milestones Project 3.0.
 References
 
 
-Balbi, A. and Guerry, A.-M. (1829).  Statistique compar'ee de l''etat de l'instruction et du nombre des
-   crimes dans les divers arrondissements des acad'emies et des cours royales de France. Jules Renouard,
+Balbi, A. and Guerry, A.-M. (1829).  Statistique comparee de l'etat de l'instruction et du nombre des
+   crimes dans les divers arrondissements des academies et des cours royales de France. Jules Renouard,
    Paris.  BL:Tab.597.b.(38); BNF: Ge C 9014 .
 
 
@@ -804,9 +804,9 @@ Gesmann, M. and de Castillo, D. (2011).  googleVis:  Interface between R and the
    API.  R package version 0.2.12.
 
 
-Guerry,  A.-M.  (1864).   Statistique  morale  de  l'Angleterre  compar'ee  avec  la  statistique  morale  de  la
-   France,  d'apr`es les comptes de l'administration de la justice criminelle en Angleterre et en France,
-   etc.  Paris:  J.-B. Bailli`ere et fils.  BNF: GR FOL-N-319; SG D/4330; BL: Maps 32.e.34; SBB: Fe 8586;
+Guerry,  A.-M.  (1864).   Statistique  morale  de  l'Angleterre  comparee  avec  la  statistique  morale  de  la
+   France,  d'apres les comptes de l'administration de la justice criminelle en Angleterre et en France,
+   etc.  Paris:  J.-B. Bailliere et fils.  BNF: GR FOL-N-319; SG D/4330; BL: Maps 32.e.34; SBB: Fe 8586;
    LC: 11005911.
 
 
@@ -838,8 +838,8 @@ Kruskal, W. (1977).  Visions of maps and graphs.  In Proceedings  of  the  Inter
    Computer- Assisted Cartography, Auto-Carto II, (pp. 27-36).  1975.
 
 
-Palsky, G. (1996). Des Chiffres et des Cartes: Naissance et d'eveloppement de la cartographie quantitative
-   fran,caise au XIXe  si`ecle.  Paris:  Comit'e des Travaux Historiques et Scientifiques (CTHS).
+Palsky, G. (1996). Des Chiffres et des Cartes: Naissance etedveloppement de la cartographie quantitative
+   francaise au XIXe  siecle.  Paris:  Comite des Travaux Historiques et Scientifiques (CTHS).
 
 
 Pearson, E. S., ed. (1978). The History of Statistics in the 17th and 18th Centuries Against the Changing
