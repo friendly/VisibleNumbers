@@ -34,12 +34,12 @@ As noted earlier, we record information relevant to the contributors of mileston
 
 One simple question that can be posed using this information is how long did these contributors live? As illustrated earlier (see \figref{fig:timespan}), Joseph Priestley was the first to develop the idea of using a graphic representation to show the lifespan of famous men. His ``charts of biography'' did this in a particularly evocative form, representing each person by a line segment whose length was defined by the individual's lifespan, and then grouped by occupational category.
 
-These ``timespan'' charts tell an interesting story, but they do not provide an answer to the question of how long, in general, these individuals lived.  However, with the author table from the Milestones Project, it is a simple matter to calculate lifespan, and obtain a direct answer to this query. \figref{fig:lifespan} shows one display of this information, using a combined density plot and rug plot, similar to the one used in \figref{fig:mileyears4}.
+These ``timespan'' charts tell an interesting story, but they do not provide an answer to the question of how long, in general, these individuals lived.  However, with the author table from the Milestones Project, it is a simple matter to calculate lifespan, and obtain a direct answer to this query. \figref{fig:lifespan} shows one display of this information, using a combined density plot and rug plot, similar to the one used in \figref{fig:mileyears4}. On this graphic, individual observations are shown by a (jittered) rug plot along the x-axis, and the three extreme cases on each end are identified by name.  The red vertical lines indicate the quartiles of the distribution.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/lifespan3}
-  \caption{Density plot of the lifespan of the 172 authors in the Milestones Project database who were born after 1500 and for whom lifespan can be determined. Individual observations are shown by a (jittered) rug plot, and the three extremes on each end are identified by name.  The red vertical lines show the quartiles of the distribution.}
+  \caption{Density plot of the lifespan of the 172 authors in the Milestones Project database who were born after 1500 and for whom lifespan can be determined.}
   \label{fig:lifespan}
 \end{figure}
 
@@ -52,12 +52,12 @@ Finally, although \figref{fig:lifespan} is just a summary graph, we have labeled
 \subsection{Milestone authors: geography}\label{sec:geography}
 The Milestones Project web site provides an initial page showing an interactive timeline of the events in this history as a visual overview (\figref{fig:mileyears4}). A long-term goal has been to provide other views of this history and other tools for searching and exploring the database. With recent technological developments, it became evident to us that one such method would be through the use of geographical data.
 
-So far, the primary geographic information we have encoded in the database refers to the birth and death place of the milestone authors. This is an imperfect representation, as these locations may not accurately represent the author's primary residence.  For instance, Charles Joseph Minard was born in Dijon, and died in Bordeaux, but all of his work was done in Paris while he worked at the {\'E}cole Nationale des Ponts et Chauss{\'e}es. Nevertheless, a geographic view of the available information is potentially useful. In this regard, we used the Google geocoding tools to provide latitude and longitude for the locations listed in the author table.  Using this and the R package googleVis \citep{googleVis}, we created the interactive map shown in \figref{fig:authormap}.
+So far, the primary geographic information we have encoded in the database refers to the birth and death place of the milestone authors. This is an imperfect representation, as these locations may not accurately represent the author's primary residence.  For instance, Charles Joseph Minard was born in Dijon, and died in Bordeaux, but all of his work was done in Paris while he worked at the {\'E}cole Nationale des Ponts et Chauss{\'e}es. Nevertheless, a geographic view of the available information is potentially useful. In this regard, we used the Google geocoding tools to provide latitude and longitude for the locations listed in the author table.  Using this and the R package googleVis \citep{googleVis}, we created the interactive map shown in \figref{fig:authormap}.  Each geographic marker featured on the image is linked to an author query on the \texttt{datavis.ca} web site, which lists the contributions of the individual who was born at that location.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/authormap}
-  \caption{Birth places of 188 milestone authors, shown on an interactive Google map, centred on France. Each geographic marker is linked to an author query on the \texttt{datavis.ca} web site that lists the contributions by that individual.}
+  \caption{Birth places of 188 milestone authors, shown on an interactive Google map, that has been centred on France.}
   \label{fig:authormap}
 \end{figure}
 
@@ -74,7 +74,7 @@ that explore the relationships among Epoch, Subject, and Aspect. The left panel 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/milecats4}
-  \caption{Mosaic displays for milestone items, classified by Epoch, Subject and Aspect. Left: mosaic for the marginal table showing differences in Subject across Epochs; Right: mosaic for the marginal table showing differences in Subject across Aspect. Numbers in the tiles give the number of milestone items.}
+  \caption{Mosaic displays for milestone items, with the marginal table showing differences in Subject across Epochs (left) and for Subject across Aspect (right). The number in each of the tiles is the count of milestone items.}
   \label{fig:milecats4}
 \end{figure}
 

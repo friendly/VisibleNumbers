@@ -66,19 +66,13 @@ For example, an aspect can belong to
 one or more milestones, and the milestone can belong to one or more aspects. 
 Media items, on the other hand, can only belong to one milestone at a time, 
 with multiple media items possible for a single milestone. 
-\figref{fig:datavis-schema-2} illustrates these relationships.
+
+\figref{fig:datavis-schema-2} illustrates these relationships.  In this representation, the main table (\texttt{milestone}) contains information regarding each of the items considered a milestone in the history of data visualization, linked to other tables (e.g., \texttt{reference}, \texttt{mediaitem}) by unique (primary) keys.  Other supporting tables (e.g., \texttt{milestone2aspect}) provide for convenient lookups of descriptors of these milestones items (\texttt{subject}, \texttt{aspect}, and \texttt{keyword}).
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/datavis-schema-3}
-  \caption{Simplified schema for the MySQL database for the Milestones Project. 
-  The main table (\texttt{milestone}) contains information regarding each of the items 
-  considered a milestone in the history of data visualization, linked to other 
-  tables (e.g., \texttt{reference}, \texttt{mediaitem}) by unique (primary) keys. 
-  Other supporting tables (e.g., \texttt{milestone2aspect}) provide for 
-  convenient lookups of descriptors of these milestones items (\texttt{subject}, 
-  \texttt{aspect}, \texttt{keyword}).
-  }
+  \caption{Simplified schema for the MySQL database for the Milestones Project.}
   \label{fig:datavis-schema-2}
 \end{figure}
 
@@ -113,19 +107,13 @@ interface adopts Ben Shneiderman's mantra: ``Overview first, zoom and filter,
 then details on demand'' \citep{Shneiderman:1996:IEEE}. 
 To do this, we added a 
 timeline view (\figref{fig:datavis-timeline2}) of the milestones items 
-displayed on the overview landing page. 
+displayed on the overview landing page.  In this view, the top panel shows a detailed view of the segment of history highlighted in the bottom panel, both of which can be separately scrolled. Items in the top panel show a brief text tag, colour-coded by category. Clicking on an item in this panel brings up a small description, which is further linked to the details of the milestone item.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/datavis-timeline2}
-  \caption{Timeline view of the Milestones Project on the site 
-  \texttt{http://datavis.ca/milestone}. In this view, the top panel shows a 
-  detailed view of the segment of history highlighted in the bottom panel, both 
-  of which can be separately scrolled. Items in the top panel show a brief text 
-  tag, colour-coded by category. Clicking on an item in this panel brings up a 
-  small description, which is further linked to the details of the milestone 
-  item.
-  }
+  \caption{Timeline view of the Milestones Project from 
+  \texttt{http://datavis.ca/milestone}. }  
   \label{fig:datavis-timeline2}
 \end{figure}
 
