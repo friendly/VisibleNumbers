@@ -10,6 +10,7 @@ TEXDEPEND = texdepend
 TAR = /bin/tar
 ZIP = /usr/bin/zip
 BIBTOOL = bibtool -- quiet=on -r ~/texmf/bibtex/bib/aux2bib.rsc
+DVI2TTY = /usr/bin/dvi2tty
 
 #  latex or  pdflatex?
 LATEX = pdflatex
@@ -28,8 +29,7 @@ INCLUDES = intro.tex project.tex vistime.tex historiography.tex playfair.tex
 #
 PACKAGES = article.cls geometry.sty natbib.sty color.sty mdwlist.sty graphicx.sty url.sty comment.sty
 #
-FIGS = fig/langren-google-overlay2.pdf fig/mileyears4.png fig/datavis-schema-3.pdf fig/datavis-timeline2.png fig/timespan.pdf fig/Adams1881-5.pdf fig/milecatline.pdf fig/Playfair1821b.jpg fig/wheat1.pdf fig/lifespan3.pdf fig/authormap.png fig/milecats4.pdf
-
+FIGS = fig/langren-google-overlay2.pdf fig/mileyears4.png fig/datavis-schema-3.pdf fig/datavis-timeline2.png fig/timespan.pdf fig/Adams1881-5.pdf fig/milecatline.pdf fig/Playfair1821b.jpg fig/wheat2.pdf fig/lifespan3.pdf fig/authormap.png fig/milecats4.pdf
 #BIB_FILES = ./references.bib
 BIB_FILES = ${MAIN}.bib
 #
@@ -40,8 +40,9 @@ STYLES = /usr/share/texmf-texlive/tex/latex/geometry/geometry.sty /usr/share/tex
 SHIPSTYLES = styles/*
 
 EXTRAS = $(MAIN:%=%.aux) $(MAIN:%=%.bbl)  Makefile \
- $(SHIPSTYLES) 
-# FIGLIST
+ $(SHIPSTYLES) \
+ FIGLIST \
+ $(MAIN:%=%.txt)
 
 ALLFILES = $(MAIN).tex $(MAIN).pdf  $(INCLUDES) $(BIB_FILES) $(FIGS) $(ALTFIGS) $(EXTRAS)
 
@@ -61,8 +62,13 @@ ${TARFILE}: ${ALLFILES}
 ${ZIPSUPP}: ${SUPPFILES}
 
 $(MAIN).dvi: $(MAIN).tex $(FIGS)
+	latex $(LATEXFLAGS) $(MAIN).tex
 
 $(MAIN).ps: $(MAIN).dvi
+
+## Produce an ASCII file via dvi2tty;  something wrong with this rule
+$(MAIN).txt:	$(MAIN).dvi $(INCLUDES)
+	$(DVI2TTY) -w 132 -o $(MAIN).txt $(MAIN).dvi
 
 #  BUG:  Preamble lines are not included in the new bib file
 #references.bib : $(MAIN).aux
@@ -74,9 +80,9 @@ ${MAIN}.bib: $(MAIN).tex $(INCLUDES)
 bib: $(MAIN).tex $(INCLUDES)
 	$(BIBTOOL) -x $(MAIN).aux -o $(MAIN).bib
 	
-## Hand edited FIGLIST because of multiple images/fig
-#FIGLIST:
-#	$(TEXDEPEND) -format=1 -print=f $(MAIN)  | perl -pe 'unless (/^#/){\$f++; s/^/Figure \$f: /}' > FIGLIST
+## Generate FIGLIST; fixed to solve quoting problem
+FIGLIST:
+	$(TEXDEPEND) -format=1 -print=f $(MAIN)  | perl -pe 'unless (/^#/){$$f++; s/^/Figure $$f: /}' > FIGLIST
 	
 
 
