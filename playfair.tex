@@ -1,8 +1,8 @@
-We illustrate this approach with an analysis of a graph from \citet{Playfair:1821},
+We illustrate this approach with an analysis of a graph from \citet{Playfair:1821}
 shown in \figref{fig:playfair-wheat1}, in some ways a tour-de-force of
 early graphic presentation. In this graph, Playfair used three parallel time
 series in different forms
-to show the price of wheat (bar chart), weekly wages (line graph), and reigning monarch (intervals)
+to show the price of wheat (bar chart), weekly wages (line graph), and reigning monarch (bars at the top)
 over a $\sim$250 year span from 1565 to 1820. His graphic goal was rhetorical: he wished to
 argue that workers had become better off in the most recent years. Surely this must be counted
 among the best early data graphics.
@@ -41,6 +41,6 @@ representing the labor cost of a unit of wheat, as we have done in \figref{fig:w
 Playfair's data and this re-creation can be found in the \texttt{R} package HistData \citep{HistData}
 as \texttt{example(Wheat)}.
 }
-Adding a non-parametric (loess) smoothed curve to the line plot makes Playfair's message directly apparent,
-and also shows that the reduction in the amount of labor required to purchase one unit of week in fact
+Adding a non-parametric (loess) smoothed curve to the line plot makes Playfair's message directly apparent;
+it also shows that the reduction in the amount of labor required to purchase one unit of week in fact
 levels off in the last 40 years. As well, it highlights that something quite unusual happened around 1600.

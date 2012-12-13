@@ -11,7 +11,9 @@
 \subsection{Statistical historiography}\label{sec:stathist}
 We use the term ``statistical historiography,'' to refer to the use of statistical and graphical methods to explore, study and describe historical problems and questions.%
 \footnote{As far as we know, the initial expression of this idea appeared in a paper by \citet{Rubin:1943} discussing various ways in which statistical methods could be applied to historical topics.  These included: the use of sampling methods to test historical theories; statistical distributions applied to historical data; and, the use of time series graphs with smoothed curves to study historical trends. More recently, many examples of the application of these ideas to statistical topics can be found in \citet{Stigler:1986,Stigler:1999}, as well as our own papers on the history of data visualization, cited \emph{inter alia}.}
-This topic has a delightful self-referential quality when applied to the history of data visualization itself, since we have often found ourselves using modern methods of statistical analysis and graphics to study the development of ideas in this area. As in the quotation from Swift above, one goal is to make previously hidden aspects of this history visible.
+This topic has a delightful self-referential quality when applied to the history of data visualization itself, 
+since we have often found ourselves using modern methods of statistical analysis and graphics to study the development of ideas in this area. 
+As indicated in the quotation from Swift above, one goal is to make previously hidden aspects of this history visible.
 
 At the same time, our examination of some of the most impressive graphic works of the past sometimes left us awe-struck by their exquisite beauty and visual design.%
 \footnote{Some examples are: Charles Joseph Minard's famous depiction of Napoleon's March on Moscow \citep{Friendly:02:Minard}, Francis Galton's detailed study of weather patterns in Europe \citep[see:][]{Friendly:2008:golden}, and Andr{\'e}-Michel Guerry's \citep[Plate 17]{Guerry:1864} semi-graphic table depicting the relations of occurrence of crimes to a wide variety of social and demographic factors \citep[see:][]{Friendly:2007:guerry}.}
@@ -23,16 +25,33 @@ or improve on their designs by a process we call ``understanding through reprodu
 
 \input{playfair}
 
-However, in order to conduct such statistical historiography, there is one principal requirement: \textbf{data}. The Milestones Project database is the repository of all the information we have so far recorded, and modern database tools allow the possibility of simple or complex queries, limited only by the available information.%
-\footnote{It should be noted that, beyond the basics of recording milestones items, images and references, inputting the other meta-data (content and form categories, keywords, etc.) is highly labor-intensive. Thanks are due to many research assistants and graduate students who have and continue to work on the Milestones Project, including Dan Denis, Matt Dubins, Yvonne Lai, Avi Lipton, and Carolina Patryluk.}
-In related work, we have collected and disseminated data sets of historical interest on a variety of topics in statistics and data visualization, for instance via the \texttt{R} packages HistData \citep{HistData} and Guerry \citep{Guerry}. These can be considered another source for data, pictures, and stories related to statistical historiography, and understanding through reproduction. This is the essence of the motto on the \url{datavis.ca} web site: \emph{Looking back, going forward}.
+However, in order to conduct such statistical historiography, there is one principal requirement: \textbf{data}. 
+The Milestones Project database is the repository of all the information we have so far recorded, and modern database tools 
+allow the possibility of simple or complex queries, limited only by the available information.%
+\footnote{It should be noted that, beyond the basics of recording milestones items, images and references, 
+inputting the other meta-data (content and form categories, keywords, etc.) is highly labor-intensive. 
+Thanks are due to many research assistants and graduate students who have and continue to work on the Milestones Project, 
+including Dan Denis, Matt Dubins, Yvonne Lai, Avi Lipton, and Carolina Patryluk.}
+In related work, we have collected and disseminated data sets of historical interest on a variety of topics in statistics and data visualization, 
+for instance, via the \texttt{R} packages HistData \citep{HistData} and Guerry \citep{Guerry}. 
+These can be considered another source for data, pictures, and stories related to statistical historiography, and understanding through reproduction. 
+This is the essence of the motto on the \url{datavis.ca} web site: \emph{Looking back, going forward}.
 
-In the subsections below, we describe a few applications of these ideas using the Milestones Project database and case studies that arose from this work. There is an interesting interplay between such historical analyses and these data collections. Some studies called for us to find and incorporate new data sources, such as our paper \citep{Friendly:2007:guerry} on Guerry's \emph{Moral statistics of France} and the Guerry package, to which we added Angeville's extensive 1836 data on social and economic characteristics of France. In other cases, our analyses suggested new or different ways to visualize historical data.
+In the subsections below, we describe a few applications of these ideas using the Milestones Project database and case studies 
+that arose from this work. 
+There is an interesting interplay between such historical analyses and these data collections. 
+Some studies called for us to find and incorporate new data sources, such as our paper \citep{Friendly:2007:guerry} 
+on Guerry's \emph{Moral statistics of France} and the Guerry package, to which we added Angeville's extensive 1836 data on social 
+and economic characteristics of France. In other cases, our analyses suggested new or different ways to visualize historical data.
 
 \subsection{Milestone authors: lifespan}\label{sec:lifespan}
-As noted earlier, we record information relevant to the contributors of milestones events in an author table in the database. For most of these individuals, internet and biographical searches allowed us to determine the dates and places of their birth and death.
+As noted earlier, we record information relevant to the contributors of milestones events in an author table in the database. 
+For most of these individuals, internet and biographical searches allowed us to determine the dates and places of their birth and death.
 
-One simple question that can be posed using this information is how long did these contributors live? As illustrated earlier (see \figref{fig:timespan}), Joseph Priestley was the first to develop the idea of using a graphic representation to show the lifespan of famous men. His ``charts of biography'' did this in a particularly evocative form, representing each person by a line segment whose length was defined by the individual's lifespan, and then grouped by occupational category.
+One simple question that can be posed using this information is how long did these contributors live? 
+As illustrated earlier (see \figref{fig:timespan}), Joseph Priestley was the first to develop the idea of using a graphic 
+representation to show the lifespan of famous men. His ``charts of biography'' did this in a particularly evocative form, 
+representing each person by a line segment whose length was defined by the individual's lifespan, and then grouped by occupational category.
 
 These ``timespan'' charts tell an interesting story, but they do not provide an answer to the question of how long, in general, these individuals lived.  However, with the author table from the Milestones Project, it is a simple matter to calculate lifespan, and obtain a direct answer to this query. \figref{fig:lifespan} shows one display of this information, using a combined density plot and rug plot, similar to the one used in \figref{fig:mileyears4}. On this graphic, individual observations are shown by a (jittered) rug plot along the x-axis, and the three extreme cases on each end are identified by name.  The red vertical lines indicate the quartiles of the distribution.
 
@@ -52,7 +71,14 @@ Finally, although \figref{fig:lifespan} is just a summary graph, we have labeled
 \subsection{Milestone authors: geography}\label{sec:geography}
 The Milestones Project web site provides an initial page showing an interactive timeline of the events in this history as a visual overview (\figref{fig:mileyears4}). A long-term goal has been to provide other views of this history and other tools for searching and exploring the database. With recent technological developments, it became evident to us that one such method would be through the use of geographical data.
 
-So far, the primary geographic information we have encoded in the database refers to the birth and death place of the milestone authors. This is an imperfect representation, as these locations may not accurately represent the author's primary residence.  For instance, Charles Joseph Minard was born in Dijon, and died in Bordeaux, but all of his work was done in Paris while he worked at the {\'E}cole Nationale des Ponts et Chauss{\'e}es. Nevertheless, a geographic view of the available information is potentially useful. In this regard, we used the Google geocoding tools to provide latitude and longitude for the locations listed in the author table.  Using this and the R package googleVis \citep{googleVis}, we created the interactive map shown in \figref{fig:authormap}.  Each geographic marker featured on the image is linked to an author query on the \texttt{datavis.ca} web site, which lists the contributions of the individual who was born at that location.
+So far, the primary geographic information we have encoded in the database refers to the birth and death place of the milestone authors. 
+This is an imperfect representation, as these locations may not accurately represent the author's primary residence.  
+For instance, Charles Joseph Minard was born in Dijon, and died in Bordeaux, but all of his work was done in Paris while he 
+worked at the {\'E}cole Nationale des Ponts et Chauss{\'e}es. Nevertheless, a geographic view of the available information is potentially useful. 
+In this regard, we used the Google geocoding tools to provide latitude and longitude for the locations listed in the author table.  
+Using this and the R package googleVis \citep{googleVis}, we created the interactive map shown in \figref{fig:authormap}.  
+Each geographic marker featured on the image is linked to an author query on the \texttt{datavis.ca} web site, 
+which lists the contributions of the individual who was born at that location.
 
 \begin{figure}[!htb]
   \centering
@@ -61,15 +87,30 @@ So far, the primary geographic information we have encoded in the database refer
   \label{fig:authormap}
 \end{figure}
 
-Like other instances of Google Maps, this graphic can be panned and zoomed using mouse controls. The place markers display tool tips when hovered over and, when clicked, link to a search page that details all of the Milestone items that are related to that author. This interesting visualization will soon be revealed on the Milestones Project website, with future work planned to incorporate other types of data in addition to the birth and death locations.
+Like other instances of Google Maps, this graphic can be panned and zoomed using mouse controls. 
+The place markers display tool tips when hovered over and, when clicked, link to a search page that details all of the 
+Milestone items related to that author. This interesting visualization will soon be revealed on the Milestones Project website, 
+with future work planned to incorporate other types of data in addition to the birth and death locations.
 
 \subsection{Milestones: themes and trends}\label{sec:themes}
-The records in the Milestones Project database also feature various text fields for each logged event. These include a brief item tag, a full description of the event, and relevant keywords, as well as categorical codes for the content (Subject), and form  (Aspect) of the item. Treating this information as ``data'' allows us and others to study themes and trends in these developments.  Modern methods of text mining and data visualization can provide insights into this history not available through other means.
+The records in the Milestones Project database also feature various text fields for each logged event. 
+These include a brief item tag, a full description of the event, and relevant keywords, as well as categorical codes 
+for the content (Subject), and form  (Aspect) of the item. Treating this information as ``data'' allows us and others to 
+study themes and trends in these developments.  
+Modern methods of text mining and data visualization can provide insights into this history not available through other means.
 
 As one simple illustration of this approach, \figref{fig:milecats4} shows two mosaic displays%
-\footnote{Mosaic displays show the frequencies in cells of a cross-classified table by the area of each tile.  The tiles are shaded according to departure from a null
-model of no-association, using blue for cells with frequencies substantially greater than chance, and red for cells with frequencies that are lower than expected.}
-that explore the relationships among Epoch, Subject, and Aspect. The left panel shows changes in the distributions of milestone events by Subject over time.  It can readily be seen that while most of the milestone innovations up to the end of the \Cent{18} were about the physical world (astronomy, geodetic measurement, weather, etc.), this trend changed in the \Cent{19}, where there was a large shift toward problems that related to human populations (e.g., pertaining to mortality, births, disease, crime). Beginning in the early 1900s, the pattern changes again, with advances in mathematics and statistics becoming the dominating force.
+\footnote{Mosaic displays show the frequencies in cells of a cross-classified table by the area of each tile.  
+The tiles are shaded according to departure from a null
+model of no-association, using blue for cells with frequencies substantially greater than chance, and red for cells 
+with frequencies that are lower than expected.}
+that explore the relationships among Epoch, Subject, and Aspect. 
+The left panel shows changes in the distributions of milestone events by Subject over time.  
+It can readily be seen that while most of the milestone innovations up to the end of the \Cent{18} focused on 
+the physical world (astronomy, geodetic measurement, weather, etc.), 
+this trend changed in the \Cent{19}, where there was a large shift toward problems that related to human populations 
+(e.g., pertaining to mortality, births, disease, crime). 
+Beginning in the early 1900s, the pattern changes again, with advances in mathematics and statistics becoming the dominating force.
 
 \begin{figure}[!htb]
   \centering
@@ -78,6 +119,9 @@ that explore the relationships among Epoch, Subject, and Aspect. The left panel 
   \label{fig:milecats4}
 \end{figure}
 
-The right panel shows the association between Subject and Aspect, pooled over Epoch. As is not surprising, maps and other cartographical representations were most often used to show data of the physical world, while graphs and diagrams were most often associated with mathematical and statistical subjects.
+The right panel shows the association between Subject and Aspect, pooled over Epoch. 
+As is not surprising, maps and other cartographical representations were most often used to show data of the physical world, 
+while graphs and diagrams were most often associated with mathematical and statistical subjects.
 
-Other statistical graphs and analyses could be used to explore these and other relationships in more detail. The key to this is of course the existence and availability of data--- in this case reflected by the coding of graphical milestones in our database.
+Other statistical graphs and analyses could be used to explore these and other relationships in more detail. 
+The key to this is of course the existence and availability of data--- in this case reflected by the coding of graphical milestones in our database.

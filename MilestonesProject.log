@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  3 DEC 2012 13:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.4)  13 DEC 2012 13:41
 entering extended mode
  %&-line parsing enabled.
-**MilestonesProject
+**MilestonesProject.tex
 (./MilestonesProject.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -198,10 +198,10 @@ File: fig/datavis-schema-3.pdf Graphic file (type pdf)
 File: fig/datavis-timeline2.png Graphic file (type png)
 
 <use fig/datavis-timeline2.png>) (./vistime.tex
-Overfull \hbox (4.3333pt too wide) in paragraph at lines 120--1
+Overfull \hbox (7.37497pt too wide) in paragraph at lines 128--1
 []\OT1/cmr/m/n/10.95 This time-line, based on the SIM-ILE Time-line Wid-get ($\
 OT1/cmtt/m/n/10.95 http : / / www . simile-[]widgets . org / timeline$\OT1/cmr/
-m/n/10.95 )
+m/n/10.95 ),
  []
 
 [6 <./fig/datavis-timeline2.png (PNG copy)>]
@@ -244,7 +244,7 @@ Here is how much of TeX's memory you used:
  5281 multiletter control sequences out of 15000+50000
  11708 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,11n,32p,1080b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,11n,32p,1084b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
@@ -263,7 +263,7 @@ sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/tex
 mf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/t
 ex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb>
-Output written on MilestonesProject.pdf (19 pages, 5883059 bytes).
+Output written on MilestonesProject.pdf (19 pages, 5883179 bytes).
 PDF statistics:
  352 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
