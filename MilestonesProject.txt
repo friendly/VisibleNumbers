@@ -13,7 +13,7 @@
 
 
 
-                                                       December 2, 2012
+                                                      December 13, 2012
 
 
 
@@ -103,10 +103,10 @@ Florent van Langen (van Langren, 1644) should be accorded this honour.  The grap
 of  the  distance  in  longitude  between  Toledo  (located  at  lat/long  (+39:86   O N,  -4:03  O W))  and  Rome
 (located  at  (+41:89   O N,  +12:5  O W)).  The  figure,  which  has  been  re-scaled,  and  overlaid  on  a  modern
 map of Europe, makes clear what van Langren wished to communicate:  that these estimates were all
-subject to large errors and to propose to King Phillip of Spain that only he had a sufficiently precise
-method  for  the  determination  of  longitude  for  navigation  at  sea.   By  also  including  markers  (stars)
-on the map itself,  the present version also demonstrates to the reader the extent to which all  of the
-estimates were biased.
+subject  to  large  errors.   Another  goal  was  to  propose  to  King  Phillip  of  Spain  that  only  he  had  a
+sufficiently precise method for the determination of longitude for navigation at sea.  By also including
+markers  (stars)  on  the  map  itself,  the  present  version  also  demonstrates  to  the  reader  the  extent  to
+which all  of the estimates were biased.
 
 
 
@@ -139,7 +139,7 @@ variable.
 
      A logical next step would be to invent a method to reveal the relationship between two variables_
 what we now know as the scatterplot.  By 1886, Francis Galton had utilized this truly bivariate display,
-which led to the discovery of correlation and regression, and ultimately to much of present multivariate
+which led to the discovery of correlation and regression, and ultimately, to much of present multivariate
 statistics.  However, he was not the first to use this graphical technique, and it is surprising that no one
 is widely credited with its invention.
 
@@ -163,7 +163,7 @@ contributions,  and for the beauty and elegance of their execution.  We call thi
 
      Figure  2  shows  the  time  distribution  of  the  260  significant  events  that  had  been  included  in  the
 Milestones Project database by 2007, demarcated by the labels we used for epochs.  The density estimate
-is based on n = 260 significant events in the history of data of data visualization from 1500-present.The
+is  based  on  n  =  260  significant  events  in  the  history  of  data  visualization  from  1500-present.   The
 developments in the highlighted period, from roughly 1840-1910 comprise the Golden Age of statistical
 graphics.  In Friendly (2008b), we traced the origin of this period in terms of the infrastructure required
 to produce such an explosive growth of contributions to data visualization,  and found three primary
@@ -198,7 +198,7 @@ searching, and analysis.
 
 The initial step in portraying the history of data visualization was to create a simple chronological listing
 of milestone items with capsule descriptions, bibliographic references, markers for date, person, place,
-and links to portraits, images, related sources and more detailed commentaries.  The initial database
+and links to portraits, images, related sources, and more detailed commentaries.  The initial database
 contained the 105 developments listed by Beniger and Robyn (1978), and incorporated additional records
 from Hankins (1999), Tufte (1983, 1990, 1997), Heiser (2000), among others.
 
@@ -286,14 +286,14 @@ this panel brings up a small description, which is further linked to the details
         Figure 4:  Timeline view of the Milestones Project from http://datavis.ca/milestone.
 
 
-     This timeline, based on the SIMILE Timeline Widget (http://www.simile-widgets.org/timeline)
+     This timeline, based on the SIMILE Timeline Widget (http://www.simile-widgets.org/timeline),
 allows multiple connected time bands, showing events at different resolutions.  Each band can be sepa-
-rately panned by dragging left or right with the mouse pointer, scroll wheel, or keyboard arrow keys.
-The timeline view, although most obvious, is just one of several possibilities for a visual overview or in-
-teraction with the display of the milestones database.  The software design of the site, using open-source
-tool kits, makes it relatively simple to add new ones.  For example, the database can also be navigated
-via a list view (with drop down quick links), and in Section 4.3 we will illustrate how it can be explored
-using a map-based display.
+rately panned by dragging to the left or right with the mouse pointer, scroll wheel, or keyboard arrow
+keys.  The timeline view, although most obvious, is just one of several possibilities for a visual overview
+or interaction with the display of the milestones database.  For example, the database can also be nav-
+igated via a list view (with drop down quick links), and in Section 4.3 we will illustrate how it can be
+explored using a map-based display.  The software design of the site, using open-source tool kits, makes
+it relatively simple to add new items, images, etc., since all information comes from the database.
 
 
 
@@ -337,7 +337,7 @@ that  quickly  became  the  most  popular  and  influential  timeline  of  the  
 details the lifespans of more than 2,000 people from 1200 BC to 1750 AD, classified by their areas of
 achievement (statesmen & warriors, mathematicians & physicians, artists & poets, and so on).
 
-     Priestly's timeline charts can be seen on our Data Visualization Gallery,  and we don't reproduce
+     Priestly's timeline charts can be seen on our Data Visualization Gallery,  but we don't reproduce
 them here.  Instead we show (see Figure 5) a re-design, in his style, of the lifespans of 79 authors from
 the Milestones database who were born in France or the United Kingdom between 1500 and 2000.
 
@@ -432,8 +432,8 @@ We use the term "statistical historiography,"  to refer to the use of statistica
 to  explore,  study  and  describe  historical  problems  and  questions.6   This  topic  has  a  delightful  self-
 referential quality when applied to the history of data visualization itself,  since we have often found
 ourselves using modern methods of statistical analysis and graphics to study the development of ideas
-in this area.  As in the quotation from Swift above, one goal is to make previously hidden aspects of
-this history visible.
+in this area.  As indicated in the quotation from Swift above,  one goal is to make previously hidden
+aspects of this history visible.
    _________________________________________________________5
      Of course, interactive graphics offer the possibity to vary resolution dynamically, by moving a "lens" across the display,
 as in a hyperbolic viewer.
@@ -460,10 +460,10 @@ from the past (Friendly, 2002b).  We can learn from this undertaking an apprecia
 and hard labor of our graphic heros, and can sometimes better understand or improve on their designs
 by a process we call "understanding through reproduction," another facet of statistical historiography.
 
-     We illustrate this approach with an analysis of a graph from Playfair (1821),  shown in Figure 8,
-in some ways a tour-de-force of early graphic presentation.  In this graph, Playfair used three parallel
-time series in different forms to show the price of wheat (bar chart),  weekly wages (line graph),  and
-reigning monarch (intervals) over a ~250 year span from 1565 to 1820.  His graphic goal was rhetorical:
+     We illustrate this approach with an analysis of a graph from Playfair (1821) shown in Figure 8, in
+some ways a tour-de-force of early graphic presentation.  In this graph, Playfair used three parallel time
+series in different forms to show the price of wheat (bar chart), weekly wages (line graph), and reigning
+monarch (bars at the top) over a ~250 year span from 1565 to 1820.  His graphic goal was rhetorical:
 he wished to argue that workers had become better off in the most recent years.  Surely this must be
 counted among the best early data graphics.
 
@@ -478,22 +478,25 @@ munication failure for Playfair's purpose.  It is sinful because the use of sepa
 axis, range:  0-100) and prices (right axis, range:  0-30) on different scales provides the opportunity to
 tell very different stories simply by re-scaling one or both axes.
 
+
+
+Figure 9:  Redrawn version of Playfair's time series graph showing the ratio of price of wheat to wages,
+together with a loess smoothed curve.
+
+
      It  is  also  a  graphic  failure  because  the  visual  impression  that  wages  increased  relative  to  prices
 toward the right end is at best indirect and is obscured by the large fluctuations in prices of wheat.
 What  Playfair  might  have  done  to  show  the  relation  directly,  is  to  plot  the  ratio  of  price  to  wages,
 representing the labor cost of a unit of wheat, as we have done in Figure 9.8  Adding a non-parametric
-(loess) smoothed curve to the line plot makes Playfair's message directly apparent, and also shows that
+(loess) smoothed curve to the line plot makes Playfair's message directly apparent; it also shows that
 the reduction in the amount of labor required to purchase one unit of week in fact levels off in the last
-40 years.  As well, it highlights that something unusual happened around 1600.
+40 years.  As well, it highlights that something quite unusual happened around 1600.
 
      However,  in  order  to  conduct  such  statistical  historiography,  there  is  one  principal  requirement:
 data.  The Milestones Project database is the repository of all the information we have so far recorded,
 and  modern  database  tools  allow  the  possibility  of  simple  or  complex  queries,  limited  only  by  the
 available  information.9   In  related  work,  we  have  collected  and  disseminated  data  sets  of  historical
-interest  on  a  variety  of  topics  in  statistics  and  data  visualization,  for  instance  via  the  R  packages
-HistData  (Friendly,  2011)  and  Guerry  (Friendly  and  Dray,  2010).  These  can  be  considered  another
-source for data, pictures, and stories related to statistical historiography, and understanding through
-reproduction.  This is the essence of the motto on the datavis.ca web site: Looking back, going forward.
+interest  on  a  variety  of  topics  in  statistics  and  data  visualization,  for  instance,  via  the  R  packages
    _________________________________________________________7
      Some examples are:  Charles Joseph Minard's famous depiction of Napoleon's March on Moscow (Friendly, 2002b),
 Francis Galton's detailed study of weather patterns in Europe (see: Friendly, 2008b), and Andre-Michel Guerry's (Guerry,
@@ -509,14 +512,10 @@ Dubins, Yvonne Lai, Avi Lipton, and Carolina Patryluk.
 
 
                                                                    8
-
+HistData  (Friendly,  2011)  and  Guerry  (Friendly  and  Dray,  2010).  These  can  be  considered  another
 
-
-
-Figure 9:  Redrawn version of Playfair's time series graph showing the ratio of price of wheat to wages,
-together with a loess smoothed curve.
-
-
+source for data, pictures, and stories related to statistical historiography, and understanding through
+reproduction.  This is the essence of the motto on the datavis.ca web site: Looking back, going forward.
 
      In the subsections below, we describe a few applications of these ideas using the Milestones Project
 database and case studies that arose from this work.  There is an interesting interplay between such
@@ -550,11 +549,8 @@ the quartiles of the distribution.
 
 
 
-                                                                   9
-Figure 10:  Density plot of the lifespan of the 172 authors in the Milestones Project database who were
-
+Figure 10:  Density plot of the lifespan of the 172 authors in the Milestones Project database who were
 born after 1500 and for whom lifespan can be determined.
-
 
 
      Several features of this plot deserve comment, and also invite further inquiry:  Most notable is that,
@@ -575,7 +571,12 @@ or time period), or cry out for the collection of more data.
 on each end, which may relate to telling parts of the story of the history of data visualization.  Among
 these,  Henry  Moselely,  who  is  known  for  the  discovery  of  atomic  number  from  a  graphical  display,
 died the youngest, as a consequence of serving in the British Army during World War I. But, we were
-surprised to see the noted and prolific French cartographer Phillippe Buache, and the German physicist
+
+
+
+                                                                   9
+surprised to see the noted and prolific French cartographer Phillippe Buache, and the German physicist
+
 and astronomer Johann Tobias Mayer, show up in positions two and three.  On the other end, we were
 delighted  to  see  that  Adriano  Balbi,  a  Venetian  geographer  and  early  collaborator  of  Andre-Michel
 Guerry  (Balbi  and  Guerry,  1829)  had  the  longest  lifespan,  just  exceeding  the  population  geneticist,
@@ -610,14 +611,11 @@ Figure 11:  Birth places of 188 milestone authors, shown on an interactive Googl
 centred on France.
 
 
-
-                                                                  10
-     Like other instances of Google Maps, this graphic can be panned and zoomed using mouse controls.
-
+     Like other instances of Google Maps, this graphic can be panned and zoomed using mouse controls.
 The place markers display tool tips when hovered over and, when clicked, link to a search page that
-details all of the Milestone items that are related to that author.  This interesting visualization will soon
-be revealed on the Milestones Project website, with future work planned to incorporate other types of
-data in addition to the birth and death locations.
+details  all  of  the  Milestone  items  related  to  that  author.  This  interesting  visualization  will  soon  be
+revealed on the Milestones Project website, with future work planned to incorporate other types of data
+in addition to the birth and death locations.
 
 
 
@@ -633,8 +631,17 @@ and data visualization can provide insights into this history not available thro
      As one simple illustration of this approach, Figure 12 shows two mosaic displays10  that explore the
 relationships among Epoch, Subject, and Aspect.  The left panel shows changes in the distributions of
 milestone events by Subject over time. It can readily be seen that while most of the milestone innovations
-up to the end of the 18th  century were about the physical world (astronomy,  geodetic measurement,
-weather, etc.), this trend changed in the 19th  century, where there was a large shift toward problems
+up  to  the  end  of  the  18th  century  focused  on  the  physical  world  (astronomy,  geodetic  measurement,
+   _________________________________________________________10
+     Mosaic displays show the frequencies in cells of a cross-classified table by the area of each tile.  The tiles are shaded
+according to departure from a null model of no-association, using blue for cells with frequencies substantially greater than
+chance, and red for cells with frequencies that are lower than expected.
+
+
+
+                                                                  10
+weather, etc.), this trend changed in the 19th  century, where there was a large shift toward problems
+
 that related to human populations (e.g., pertaining to mortality, births, disease, crime).  Beginning in
 the early 1900s, the pattern changes again, with advances in mathematics and statistics becoming the
 dominating force.
@@ -648,16 +655,7 @@ of milestone items.
 
      The  right  panel  shows  the  association  between  Subject  and  Aspect,  pooled  over  Epoch.   As  is
 not surprising, maps and other cartographical representations were most often used to show data of the
-   _________________________________________________________10
-     Mosaic displays show the frequencies in cells of a cross-classified table by the area of each tile.  The tiles are shaded
-according to departure from a null model of no-association, using blue for cells with frequencies substantially greater than
-chance, and red for cells with frequencies that are lower than expected.
-
-
-
-                                                                  11
-physical world, while graphs and diagrams were most often associated with mathematical and statistical
-
+physical world, while graphs and diagrams were most often associated with mathematical and statistical
 subjects.
 
      Other statistical graphs and analyses could be used to explore these and other relationships in more
@@ -682,16 +680,20 @@ to make the database more amenable to additions, edits, and extensions among col
 we find that the most exciting aspect of the new structure is its flexibility in terms of data retrieval,
 and our newfound ability to use and manipulate the data for graphic-based statistical historiography.
 
-     One  goal  for  the  future,  as  we  suggested  earlier  (Section  4.3),  is  to  extend  the  user  interface  to
+
+
+                                                                  11
+     One  goal  for  the  future,  as  we  suggested  earlier  (Section  4.3),  is  to  extend  the  user  interface  to
+
 provide multiple views and advanced text search and filtering capabilities.  One convenient path for this
 development is provided by the SIMILE Exhibit framework (www.simile-widgets.org/exhibit3/).
 This  provides  web  software  libraries  (Ajax,  javascript,  css)  for  timelines,  interactive  maps,  tabular
 displays, image "tiles" and other visualizations.  Various views can be composed for browsing as tabbed,
-alternatives or as faceted displays, showing, for example an interactive timeline and a map.
+alternatives or as faceted displays, showing for example, an interactive timeline and a map.
 
      Equally important, the Exhibit framework allows us to present some of the milestones tables to be
 used as filters for the items displayed in these views.  Tables for subject,  aspect,  keywords,  location,
-epoch, etc.  would allow the user to select select milestone events based on some or all of these criteria,
+epoch,  etc.   would  allow  the  user  to  select  milestone  events  based  on  some  or  all  of  these  criteria,
 providing a way to ask such questions as "what milestones events between 1700-1900 involving social
 science occurred in Europe?"
 
@@ -717,10 +719,7 @@ Beniger,  J.  R.  and  Robyn,  D.  L.  (1978).   Quantitative  graphics  in  sta
    American Statistician, 32, 1-11.
 
 
-
-                                                                  12
-Codd, E. F. (1971).  Further normalization of the data base relational model.  IBM Research Report,
-
+Codd, E. F. (1971).  Further normalization of the data base relational model.  IBM Research Report,
    San Jose, California, RJ909.
 
 
@@ -749,7 +748,10 @@ Friendly,  M. (2007).  A.-M. Guerry's Moral Statistics of France:  Challenges fo
    analysis.  Statistical Science, 22(3), 368-399.
 
 
-Friendly, M. (2008a). A brief history of data visualization. In C. Chen, W. H"ardle, and A. Unwin, eds.,
+
+                                                                  12
+Friendly, M. (2008a). A brief history of data visualization. In C. Chen, W. H"ardle, and A. Unwin, eds.,
+
    Handbook of Computational Statistics:  Data Visualization, vol. III, chap. 1, (pp. 1-34). Heidelberg:
    Springer-Verlag.
 
@@ -793,10 +795,7 @@ Funkhouser,  H. G. (1937).  Historical development of the graphical representati
    Osiris, 3(1), 269-405.  Reprinted Brugge, Belgium:  St. Catherine Press, 1937.
 
 
-
-                                                                  13
-Galton, F. (1886).  Regression towards mediocrity in hereditary stature.  Journal of the Anthropological
-
+Galton, F. (1886).  Regression towards mediocrity in hereditary stature.  Journal of the Anthropological
    Institute, 15, 246-263.
 
 
@@ -827,7 +826,10 @@ Heiser,  W.  J.  (2000).  Early  roots  of  statistical  modelling.  In  J.  Bla
    national Conference on Logic and Methodology. Amsterdam:  TT-Publikaties.
 
 
-Hoff, H. E. and Geddes, L. A. (1959).  Graphic recording before Carl Ludwig:  An historical summary.
+
+                                                                  13
+Hoff, H. E. and Geddes, L. A. (1959).  Graphic recording before Carl Ludwig:  An historical summary.
+
    Archives Internationales d'Histoire des Sciences, 12, 3-25.
 
 
@@ -865,10 +867,7 @@ Playfair, W. (1821). Letter on our agricultural distresses, their causes and rem
    1565 to 1821.  BL: 8275.c.64.
 
 
-
-                                                                  14
-Porter, T. M. (1986). The Rise of Statistical Thinking 1820-1900. Princeton, NJ: Princeton University
-
+Porter, T. M. (1986). The Rise of Statistical Thinking 1820-1900. Princeton, NJ: Princeton University
    Press.
 
 
@@ -902,7 +901,10 @@ Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for infor
    DC, USA: IEEE Computer Society.
 
 
-Stigler, S. M. (1986).  The History of Statistics:  The Measurement of Uncertainty before 1900.  Cam-
+
+                                                                  14
+Stigler, S. M. (1986).  The History of Statistics:  The Measurement of Uncertainty before 1900.  Cam-
+
    bridge, MA: Harvard University Press.
 
 
