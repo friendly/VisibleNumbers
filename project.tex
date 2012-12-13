@@ -12,7 +12,7 @@ visualization convenient for collecting, browsing, searching, and analysis.
 The initial step in portraying the history of data visualization was to create 
 a simple chronological listing of milestone items with capsule descriptions, 
 bibliographic references, markers for date, person, place, and links to 
-portraits, images, related sources and more detailed commentaries. 
+portraits, images, related sources, and more detailed commentaries. 
 The initial 
 database contained the 105 developments listed by \citet{BenigerRobyn:1978}, 
 and incorporated additional records from \citet{Hankins:1999}, 
@@ -66,19 +66,17 @@ For example, an aspect can belong to
 one or more milestones, and the milestone can belong to one or more aspects. 
 Media items, on the other hand, can only belong to one milestone at a time, 
 with multiple media items possible for a single milestone. 
-\figref{fig:datavis-schema-2} illustrates these relationships.
+
+\figref{fig:datavis-schema-2} illustrates these relationships.  
+In this representation, the main table (\texttt{milestone}) contains information regarding each of the items considered a 
+milestone in the history of data visualization, linked to other tables (e.g., \texttt{reference}, \texttt{mediaitem}) by unique (primary) keys.  
+Other supporting tables (e.g., \texttt{milestone2aspect}) provide for convenient lookups of 
+descriptors of these milestones items (\texttt{subject}, \texttt{aspect}, and \texttt{keyword}).
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/datavis-schema-3}
-  \caption{Simplified schema for the MySQL database for the Milestones Project. 
-  The main table (\texttt{milestone}) contains information regarding each of the items 
-  considered a milestone in the history of data visualization, linked to other 
-  tables (e.g., \texttt{reference}, \texttt{mediaitem}) by unique (primary) keys. 
-  Other supporting tables (e.g., \texttt{milestone2aspect}) provide for 
-  convenient lookups of descriptors of these milestones items (\texttt{subject}, 
-  \texttt{aspect}, \texttt{keyword}).
-  }
+  \caption{Simplified schema for the MySQL database for the Milestones Project.}
   \label{fig:datavis-schema-2}
 \end{figure}
 
@@ -113,34 +111,33 @@ interface adopts Ben Shneiderman's mantra: ``Overview first, zoom and filter,
 then details on demand'' \citep{Shneiderman:1996:IEEE}. 
 To do this, we added a 
 timeline view (\figref{fig:datavis-timeline2}) of the milestones items 
-displayed on the overview landing page. 
+displayed on the overview landing page.  
+In this view, the top panel shows a detailed view of the segment of history highlighted in the bottom panel, 
+both of which can be separately scrolled. 
+Items in the top panel show a brief text tag, colour-coded by category. 
+Clicking on an item in this panel brings up a small description, which is further linked to the details of the milestone item.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth,clip]{fig/datavis-timeline2}
-  \caption{Timeline view of the Milestones Project on the site 
-  \texttt{http://datavis.ca/milestone}. In this view, the top panel shows a 
-  detailed view of the segment of history highlighted in the bottom panel, both 
-  of which can be separately scrolled. Items in the top panel show a brief text 
-  tag, colour-coded by category. Clicking on an item in this panel brings up a 
-  small description, which is further linked to the details of the milestone 
-  item.
-  }
+  \caption{Timeline view of the Milestones Project from 
+  \texttt{http://datavis.ca/milestone}. }  
   \label{fig:datavis-timeline2}
 \end{figure}
 
 This timeline, based on the SIMILE Timeline Widget 
-(\url{http://www.simile-widgets.org/timeline}) allows multiple connected time 
+(\url{http://www.simile-widgets.org/timeline}), allows multiple connected time 
 bands, showing events at different resolutions.  
 Each band can be separately 
-panned by dragging left or right with the mouse pointer, scroll wheel, or 
+panned by dragging to the left or right with the mouse pointer, scroll wheel, or 
 keyboard arrow keys. 
 The timeline view, although most obvious, is just one of 
 several possibilities for a visual overview or interaction with the display of 
 the milestones database. 
-The software design of the site, using open-source 
-tool kits, makes it relatively simple to add new ones.  
 For example, the 
 database can also be navigated via a list view (with drop down quick links), 
 and in \secref{sec:geography} we will illustrate how it can be explored using a 
 map-based display.
+The software design of the site, using open-source 
+tool kits, makes it relatively simple to add new items, images, etc., since all information
+comes from the database.

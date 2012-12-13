@@ -1,0 +1,15 @@
+# texdepend, v0.96 (Michael Friendly (friendly@yorku.ca))
+# commandline: texdepend -format=1 -print=f MilestonesProject
+# FIGS =
+Figure 1: fig/langren-google-overlay2.pdf
+Figure 2: fig/mileyears4.png
+Figure 3: fig/datavis-schema-3.pdf
+Figure 4: fig/datavis-timeline2.png
+Figure 5: fig/timespan.pdf
+Figure 6: fig/Adams1881-5.pdf
+Figure 7: fig/milecatline.pdf
+Figure 8: fig/Playfair1821b.jpg
+Figure 9: fig/wheat2.pdf
+Figure 10: fig/lifespan3.pdf
+Figure 11: fig/authormap.png
+Figure 12: fig/milecats4.pdf
