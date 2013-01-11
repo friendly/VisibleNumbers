@@ -13,7 +13,7 @@
 
 
 
-                                                      December 13, 2012
+                                                        January 11, 2013
 
 
 
@@ -496,13 +496,14 @@ the reduction in the amount of labor required to purchase one unit of week in fa
 data.  The Milestones Project database is the repository of all the information we have so far recorded,
 and  modern  database  tools  allow  the  possibility  of  simple  or  complex  queries,  limited  only  by  the
 available  information.9   In  related  work,  we  have  collected  and  disseminated  data  sets  of  historical
-interest  on  a  variety  of  topics  in  statistics  and  data  visualization,  for  instance,  via  the  R  packages
    _________________________________________________________7
      Some examples are:  Charles Joseph Minard's famous depiction of Napoleon's March on Moscow (Friendly, 2002b),
 Francis Galton's detailed study of weather patterns in Europe (see: Friendly, 2008b), and Andre-Michel Guerry's (Guerry,
 1864, Plate 17) semi-graphic table depicting the relations of occurrence of crimes to a wide variety of social and demographic
 factors (see: Friendly, 2007).
-    8Playfair's data and this re-creation can be found in the R package HistData (Friendly, 2011) as example(Wheat).
+    8This redesigned version first appeared in Friendly and Wainer (2004). Playfair's data and this re-creation can be found
+
+in the R package HistData (Friendly, 2011) as example(Wheat).
     9It should be noted that, beyond the basics of recording milestones items, images and references, inputting the other
 
 meta-data (content and form categories, keywords, etc.)  is highly labor-intensive.  Thanks are due to many research
@@ -512,8 +513,9 @@ Dubins, Yvonne Lai, Avi Lipton, and Carolina Patryluk.
 
 
                                                                    8
-HistData  (Friendly,  2011)  and  Guerry  (Friendly  and  Dray,  2010).  These  can  be  considered  another
+interest  on  a  variety  of  topics  in  statistics  and  data  visualization,  for  instance,  via  the  R  packages
 
+HistData  (Friendly,  2011)  and  Guerry  (Friendly  and  Dray,  2010).  These  can  be  considered  another
 source for data, pictures, and stories related to statistical historiography, and understanding through
 reproduction.  This is the essence of the motto on the datavis.ca web site: Looking back, going forward.
 
@@ -570,13 +572,13 @@ or time period), or cry out for the collection of more data.
      Finally, although Figure 10 is just a summary graph, we have labeled a few extreme observations
 on each end, which may relate to telling parts of the story of the history of data visualization.  Among
 these,  Henry  Moselely,  who  is  known  for  the  discovery  of  atomic  number  from  a  graphical  display,
-died the youngest, as a consequence of serving in the British Army during World War I. But, we were
 
 
 
                                                                    9
-surprised to see the noted and prolific French cartographer Phillippe Buache, and the German physicist
+died the youngest, as a consequence of serving in the British Army during World War I. But, we were
 
+surprised to see the noted and prolific French cartographer Phillippe Buache, and the German physicist
 and astronomer Johann Tobias Mayer, show up in positions two and three.  On the other end, we were
 delighted  to  see  that  Adriano  Balbi,  a  Venetian  geographer  and  early  collaborator  of  Andre-Michel
 Guerry  (Balbi  and  Guerry,  1829)  had  the  longest  lifespan,  just  exceeding  the  population  geneticist,
@@ -631,7 +633,6 @@ and data visualization can provide insights into this history not available thro
      As one simple illustration of this approach, Figure 12 shows two mosaic displays10  that explore the
 relationships among Epoch, Subject, and Aspect.  The left panel shows changes in the distributions of
 milestone events by Subject over time. It can readily be seen that while most of the milestone innovations
-up  to  the  end  of  the  18th  century  focused  on  the  physical  world  (astronomy,  geodetic  measurement,
    _________________________________________________________10
      Mosaic displays show the frequencies in cells of a cross-classified table by the area of each tile.  The tiles are shaded
 according to departure from a null model of no-association, using blue for cells with frequencies substantially greater than
@@ -640,8 +641,9 @@ chance, and red for cells with frequencies that are lower than expected.
 
 
                                                                   10
-weather, etc.), this trend changed in the 19th  century, where there was a large shift toward problems
+up  to  the  end  of  the  18th  century  focused  on  the  physical  world  (astronomy,  geodetic  measurement,
 
+weather, etc.), this trend changed in the 19th  century, where there was a large shift toward problems
 that related to human populations (e.g., pertaining to mortality, births, disease, crime).  Beginning in
 the early 1900s, the pattern changes again, with advances in mathematics and statistics becoming the
 dominating force.
@@ -784,6 +786,9 @@ Friendly, M., Valero-Mora, P., and Ulargui, J. I. (2010).  The first (known) sta
    Florent van Langren and the "Secret" of Longitude.  The American Statistician, 64(2), 185-191.
 
 
+Friendly, M. and Wainer, H. (2004).  Nobody's perfect.  Chance, 17(2), 48-51.
+
+
 Friis, H. R. (1974). Statistical cartography in the United States prior to 1870 and the role of Joseph C.
    G. Kennedy and the U.S. Census Office.  American Cartographer, 1, 131-157.
 
@@ -821,15 +826,15 @@ Hartigan, J. A. and Kleiner, B. (1981).  Mosaics for contingency tables.  In W. 
    NY: Springer-Verlag.
 
 
-Heiser,  W.  J.  (2000).  Early  roots  of  statistical  modelling.  In  J.  Blasius,  J.  Hox,  E.  de  Leeuw,  and
+
+                                                                  13
+Heiser,  W.  J.  (2000).  Early  roots  of  statistical  modelling.  In  J.  Blasius,  J.  Hox,  E.  de  Leeuw,  and
+
    P. Schmidt, eds., Social Science Methodology in the New Millenium:  Proceedings of the Fifth Inter-
    national Conference on Logic and Methodology. Amsterdam:  TT-Publikaties.
 
 
-
-                                                                  13
-Hoff, H. E. and Geddes, L. A. (1959).  Graphic recording before Carl Ludwig:  An historical summary.
-
+Hoff, H. E. and Geddes, L. A. (1959).  Graphic recording before Carl Ludwig:  An historical summary.
    Archives Internationales d'Histoire des Sciences, 12, 3-25.
 
 
@@ -896,15 +901,15 @@ Rubin,  E.  (1943).  The  place  of  statistical  methods  in  modern  historiog
    Economics and Sociology, 2(2), 193-210.
 
 
-Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for information visualizations.
+
+                                                                  14
+Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for information visualizations.
+
    In Proceedings of the 1996 IEEE Symposium on Visual Languages, VL '96, (pp. 336-343). Washington,
    DC, USA: IEEE Computer Society.
 
 
-
-                                                                  14
-Stigler, S. M. (1986).  The History of Statistics:  The Measurement of Uncertainty before 1900.  Cam-
-
+Stigler, S. M. (1986).  The History of Statistics:  The Measurement of Uncertainty before 1900.  Cam-
    bridge, MA: Harvard University Press.
 
 

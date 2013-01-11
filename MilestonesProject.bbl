@@ -1,6 +1,6 @@
  \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\SortNoop}[1]{}
   \providecommand{\Loc}[1]{\textsf{#1}}  \providecommand{\de}[1]{d'#1}
-\begin{thebibliography}{52}
+\begin{thebibliography}{53}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Balbi and Guerry(1829)}]{BalbiGuerry:1829}
@@ -107,6 +107,11 @@ Friendly, M., Valero-Mora, P., and Ulargui, J.~I. (2010).
 \newblock The first (known) statistical graph: {Michael Florent van Langren and
   the ``Secret'' of Longitude}.
 \newblock \emph{The American Statistician}, 64(2), 185--191.
+
+\bibitem[{Friendly and Wainer(2004)}]{FriendlyWainer:2004}
+Friendly, M. and Wainer, H. (2004).
+\newblock Nobody's perfect.
+\newblock \emph{Chance}, 17(2), 48--51.
 
 \bibitem[{Friis(1974)}]{Friis:1974}
 Friis, H.~R. (1974).
